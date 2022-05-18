@@ -1,0 +1,152 @@
+model{
+ for(i in 1:n){# n is the number of obs
+
+# CIRI items, DISAP, KILL, POLPRIS, TORT  standards based data
+   for(item in 1:4){
+    logit(Z[i, item, 1])  <- alpha3[item, 1, time[i]] - beta3[item]*x[i]
+    logit(Z[i, item, 2])  <- alpha3[item, 2, time[i]] - beta3[item]*x[i]
+    Pi[i, item, 1] <- Z[i, item, 1]
+    Pi[i, item, 2] <- Z[i, item, 2] - Z[i, item, 1]
+    Pi[i, item, 3] <- 1 - Z[i, item, 2]
+    y[i, item] ~ dcat(Pi[i, item, 1:3])
+   }
+
+# PTS Amnesty standards based data
+    logit(Z[i, 5, 1])  <- alpha5[1, 1, time[i]] + beta5[1]*x[i]
+    logit(Z[i, 5, 2])  <- alpha5[1, 2, time[i]] + beta5[1]*x[i]
+    logit(Z[i, 5, 3])  <- alpha5[1, 3, time[i]] + beta5[1]*x[i]
+    logit(Z[i, 5, 4])  <- alpha5[1, 4, time[i]] + beta5[1]*x[i]
+    Pi[i, 5, 1] <- Z[i, 5, 1]
+    Pi[i, 5, 2] <- Z[i, 5, 2] - Z[i, 5, 1]
+    Pi[i, 5, 3] <- Z[i, 5, 3] - Z[i, 5, 2]
+    Pi[i, 5, 4] <- Z[i, 5, 4] - Z[i, 5, 3]
+    Pi[i, 5, 5] <- 1 - Z[i, 5, 4]
+    y[i, 5] ~ dcat(Pi[i, 5, 1:5])
+
+# PTS State standards based data
+    logit(Z[i, 6, 1])  <- alpha5[2, 1, time[i]] + beta5[2]*x[i]
+    logit(Z[i, 6, 2])  <- alpha5[2, 2, time[i]] + beta5[2]*x[i]
+    logit(Z[i, 6, 3])  <- alpha5[2, 3, time[i]] + beta5[2]*x[i]
+    logit(Z[i, 6, 4])  <- alpha5[2, 4, time[i]] + beta5[2]*x[i]
+    Pi[i, 6, 1] <- Z[i, 6, 1]
+    Pi[i, 6, 2] <- Z[i, 6, 2] - Z[i, 6, 1]
+    Pi[i, 6, 3] <- Z[i, 6, 3] - Z[i, 6, 2]
+    Pi[i, 6, 4] <- Z[i, 6, 4] - Z[i, 6, 3]
+    Pi[i, 6, 5] <- 1 - Z[i, 6, 4]
+    y[i, 6] ~ dcat(Pi[i, 6, 1:5])
+
+# Hathaway standards based data
+    logit(Z[i, 7, 1])  <- alpha5[3, 1, time[i]] + beta5[3]*x[i]
+    logit(Z[i, 7, 2])  <- alpha5[3, 2, time[i]] + beta5[3]*x[i]
+    logit(Z[i, 7, 3])  <- alpha5[3, 3, time[i]] + beta5[3]*x[i]
+    logit(Z[i, 7, 4])  <- alpha5[3, 4, time[i]] + beta5[3]*x[i]
+    Pi[i, 7, 1] <- Z[i, 7, 1]
+    Pi[i, 7, 2] <- Z[i, 7, 2] - Z[i, 7, 1]
+    Pi[i, 7, 3] <- Z[i, 7, 3] - Z[i, 7, 2]
+    Pi[i, 7, 4] <- Z[i, 7, 4] - Z[i, 7, 3]
+    Pi[i, 7, 5] <- 1 - Z[i, 7, 4]
+    y[i, 7] ~ dcat(Pi[i, 7, 1:5])
+
+# ITT
+    logit(Z[i, 8, 1])  <- alpha6[1, 1, time[i]] + beta6[1]*x[i]
+    logit(Z[i, 8, 2])  <- alpha6[1, 2, time[i]] + beta6[1]*x[i]
+    logit(Z[i, 8, 3])  <- alpha6[1, 3, time[i]] + beta6[1]*x[i]
+    logit(Z[i, 8, 4])  <- alpha6[1, 4, time[i]] + beta6[1]*x[i]
+    logit(Z[i, 8, 5])  <- alpha6[1, 5, time[i]] + beta6[1]*x[i]
+    Pi[i, 8, 1] <- Z[i, 8, 1]
+    Pi[i, 8, 2] <- Z[i, 8, 2] - Z[i, 8, 1]
+    Pi[i, 8, 3] <- Z[i, 8, 3] - Z[i, 8, 2]
+    Pi[i, 8, 4] <- Z[i, 8, 4] - Z[i, 8, 3]
+    Pi[i, 8, 5] <- Z[i, 8, 5] - Z[i, 8, 4]
+    Pi[i, 8, 6] <- 1 - Z[i, 8, 5]
+    y[i, 8] ~ dcat(Pi[i, 8, 1:6])
+
+# Genocide event data
+   logit(p[i,1]) <- alpha1[1] - beta1[1]*x[i]
+   y[i, 9] ~ dbern(p[i,1])
+
+# Rummel event data
+   logit(p[i,2]) <- alpha1[2] - beta1[2]*x[i]
+   y[i, 10] ~ dbern(p[i,2])
+   
+# Massive Repression data
+   logit(p[i,3]) <- alpha1[3] - beta1[3]*x[i]
+   y[i, 11] ~ dbern(p[i,3])
+
+# WHPSI killing  event data
+   logit(p[i,4]) <- alpha1[4] - beta1[4]*x[i]
+   y[i, 12] ~ dbern(p[i,4])
+
+# UPSALA killing  event data
+   logit(p[i,5]) <- alpha1[5] - beta1[5]*x[i]
+   y[i, 13] ~ dbern(p[i,5])
+
+# redraw latent variable parameter from mu matrix because of unbalanced panels
+   x[i] <- mu[country[i], year[i]]
+ }
+
+# draw percision for latent variable parameter estimate
+ sigma ~ dunif(0,1)
+ kappa <- pow(sigma, -1)
+
+# draw dynamic latent variable parameter  
+ for(c in 1:n.country){
+  mu[c, 1] ~ dnorm(0, 1)
+  for(t in 2:n.year){ #n.year is number of years
+   mu[c, t] ~ dnorm(mu[c, t-1], kappa)
+  }
+ }
+
+# CIRI model parameters
+ for(item3 in 1:4){
+  beta3[item3] ~ dgamma(4, 3)
+  alpha03[item3, 1, 1] ~ dnorm(0, .25)
+  alpha03[item3, 2, 1] ~ dnorm(0, .25)
+  alpha3[item3, 1:2, 1] <- sort(alpha03[item3, 1, 1:2])
+   for(t in 2:n.year){ #n.year is number of years
+    alpha03[item3, 1, t] ~ dnorm(alpha03[item3, 1, t-1], .25)
+    alpha03[item3, 2, t] ~ dnorm(alpha03[item3, 2, t-1], .25)
+    alpha3[item3, 1:2, t] <- sort(alpha03[item3, 1:2, t])
+ }
+}
+# PTS and Hathaway model parameters
+ for(item5 in 1:3){
+  beta5[item5] ~ dgamma(4, 3)
+  alpha05[item5, 1, 1] ~ dnorm(0, .25)
+  alpha05[item5, 2, 1] ~ dnorm(0, .25)
+  alpha05[item5, 3, 1] ~ dnorm(0, .25)
+  alpha05[item5, 4, 1] ~ dnorm(0, .25)
+  alpha5[item5, 1:4, 1] <- sort(alpha05[item5, 1:4, 1])
+   for(t in 2:n.year){ #n.year is number of years
+    alpha05[item5, 1, t] ~ dnorm(alpha05[item5, 1, t-1], .25)
+    alpha05[item5, 2, t] ~ dnorm(alpha05[item5, 2, t-1], .25)
+    alpha05[item5, 3, t] ~ dnorm(alpha05[item5, 3, t-1], .25)
+    alpha05[item5, 4, t] ~ dnorm(alpha05[item5, 4, t-1], .25)
+    alpha5[item5, 1:4, t] <- sort(alpha05[item5, 1:4, t])
+ }
+}
+ # ITT model parameters
+ for(item6 in 1:1){
+  beta6[item6] ~ dgamma(4, 3)
+  alpha06[item6, 1, 1] ~ dnorm(0, .25)
+  alpha06[item6, 2, 1] ~ dnorm(0, .25)
+  alpha06[item6, 3, 1] ~ dnorm(0, .25)
+  alpha06[item6, 4, 1] ~ dnorm(0, .25)
+  alpha06[item6, 5, 1] ~ dnorm(0, .25)
+  alpha6[item6, 1:5, 1] <- sort(alpha06[item6, 1:5, 1])
+   for(t in 2:n.year){ #n.year is number of years
+     alpha06[item6, 1, t] ~ dnorm(alpha06[item6, 1, t-1], .25)
+     alpha06[item6, 2, t] ~ dnorm(alpha06[item6, 2, t-1], .25)
+     alpha06[item6, 3, t] ~ dnorm(alpha06[item6, 3, t-1], .25)
+     alpha06[item6, 4, t] ~ dnorm(alpha06[item6, 4, t-1], .25)
+     alpha06[item6, 5, t] ~ dnorm(alpha06[item6, 5, t-1], .25)
+     alpha6[item6, 1:5, t] <- sort(alpha06[item6, 1:5, t])
+ }
+}
+ 
+# Genocide, Rummel, Massive Repression, UPSALA killing and WHPSI execution model parameters
+ for(item1 in 1:5){
+  beta1[item1] ~ dgamma(4, 3)
+  alpha1[item1] ~ dnorm(0, .25)
+ }
+}

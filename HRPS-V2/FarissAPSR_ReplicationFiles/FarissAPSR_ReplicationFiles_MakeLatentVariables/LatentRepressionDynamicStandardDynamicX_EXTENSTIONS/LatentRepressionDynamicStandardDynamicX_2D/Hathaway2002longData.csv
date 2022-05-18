@@ -1,0 +1,2461 @@
+"country","ccode","year","torture"
+"Afghanistan",700,1985,5
+"Albania",339,1985,3
+"Algeria",615,1985,1
+"Angola",540,1985,3
+"Argentina",160,1985,2
+"Armenia",371,1985,2
+"Australia",900,1985,1
+"Austria",305,1985,1
+"Azerbaijan",373,1985,3
+"Bahrain",692,1985,2
+"Bangladesh",771,1985,3
+"Belarus",370,1985,2
+"Belgium",211,1985,1
+"Benin",434,1985,3
+"Bhutan",760,1985,1
+"Bolivia",145,1985,2
+"Bosnia and Herzegovina",346,1985,NA
+"Botswana",571,1985,1
+"Brazil",140,1985,5
+"Bulgaria",355,1985,3
+"Burkina Faso",439,1985,3
+"Burundi",516,1985,2
+"Cambodia",811,1985,5
+"Cameroon",471,1985,2
+"Canada",20,1985,1
+"Central African Repbulic",482,1985,3
+"Chad",483,1985,5
+"Chile",155,1985,4
+"China",710,1985,1
+"Colombia",100,1985,3
+"Comoros",581,1985,3
+"Congo, Republic of",484,1985,3
+"Congo, Democratic Republic of",490,1985,5
+"Costa Rica",94,1985,1
+"ivory Coast",437,1985,2
+"Croatia",344,1985,NA
+"Cuba",40,1985,4
+"Cyprus",352,1985,1
+"Czechoslovakia",315,1985,3
+"Czech Republic",316,1985,NA
+"Denmark",390,1985,1
+"Djibouti",522,1985,3
+"Dominican Republic",42,1985,2
+"Ecuador",130,1985,3
+"Egypt",651,1985,3
+"El Salvador",92,1985,4
+"Equatorial Guinea",411,1985,3
+"Eritrea",531,1985,NA
+"Estonia",366,1985,4
+"Ethiopia",530,1985,4
+"Fiji",950,1985,1
+"Finland",375,1985,1
+"France",220,1985,1
+"Gabon",481,1985,2
+"Gambia",420,1985,2
+"Georgia",372,1985,NA
+"Germany",255,1985,NA
+"Germany, East",265,1985,NA
+"Germany, West",260,1985,1
+"Ghana",452,1985,3
+"Greece",350,1985,2
+"Guatemala",90,1985,4
+"Guinea",438,1985,2
+"Guinea-Bissau",404,1985,4
+"Guyana",110,1985,3
+"Haiti",41,1985,3
+"Honduras",91,1985,2
+"Hungary",310,1985,1
+"iceland",395,1985,1
+"india",750,1985,3
+"indonesia",850,1985,3
+"iran",630,1985,5
+"iraq",645,1985,5
+"ireland",205,1985,2
+"israel",666,1985,1
+"italy",325,1985,1
+"Jamaica",51,1985,2
+"Japan",740,1985,1
+"Jordan",663,1985,2
+"Kazakhstan",705,1985,NA
+"Kenya",501,1985,3
+"South Korea",732,1985,3
+"North Korea",731,1985,4
+"Kuwait",690,1985,2
+"Kyrgyzstan",703,1985,NA
+"Laos",812,1985,2
+"Latvia",367,1985,4
+"Lebanon",660,1985,3
+"Lesotho",570,1985,2
+"Liberia",450,1985,3
+"Libya",620,1985,4
+"Lithuania",368,1985,4
+"Luxembourg",212,1985,1
+"Macedonia",343,1985,NA
+"Madagascar",580,1985,3
+"Malawi",553,1985,2
+"Malaysia",820,1985,1
+"Mali",432,1985,3
+"Mauritania",435,1985,3
+"Mauritius",590,1985,1
+"Mexico",70,1985,3
+"Moldova",359,1985,NA
+"Mongolia",712,1985,NA
+"Morocco",600,1985,3
+"Mozambique",541,1985,4
+"Myanmar",775,1985,3
+"Namibia",565,1985,3
+"Nepal",790,1985,3
+"Netherlands",210,1985,1
+"New Zealand",920,1985,1
+"Nicaragua",93,1985,4
+"Niger",436,1985,3
+"Nigeria",475,1985,3
+"Norway",385,1985,1
+"Oman",698,1985,1
+"Pakistan",770,1985,5
+"Panama",95,1985,2
+"Papua New Guinea",910,1985,1
+"Paraguay",150,1985,4
+"Peru",135,1985,4
+"Philippines",840,1985,4
+"Poland",290,1985,3
+"Portugal",235,1985,1
+"Qatar",694,1985,2
+"Romania",360,1985,4
+"Russia",365,1985,4
+"Rwanda",517,1985,3
+"Saudi Arabia",670,1985,3
+"Senegal",433,1985,3
+"Sierra Leone",451,1985,3
+"Singapore",830,1985,2
+"Slovak Republic",317,1985,NA
+"Slovenia",349,1985,NA
+"Somalia",520,1985,3
+"South Africa",560,1985,3
+"Spain",230,1985,3
+"Sri Lanka",780,1985,3
+"Sudan",625,1985,1
+"Swaziland",572,1985,2
+"Sweden",380,1985,1
+"Switzerland",225,1985,1
+"Syria",652,1985,5
+"Tajikistan",702,1985,NA
+"Tanzania",510,1985,3
+"Thailand",800,1985,2
+"Togo",461,1985,4
+"Tonga",955,1985,NA
+"Tunisia",616,1985,2
+"Turkey",640,1985,5
+"Turkmenistan",701,1985,NA
+"Uganda",500,1985,4
+"Ukraine",369,1985,NA
+"United Arab Emirates",696,1985,1
+"United Kingdom",200,1985,3
+"Uruguay",165,1985,1
+"Uzbekistan",704,1985,NA
+"Venezuela",101,1985,2
+"Vietnam",816,1985,4
+"Yemen, North",678,1985,3
+"Yemen",679,1985,NA
+"Yemen, South",680,1985,3
+"Yugoslavia",345,1985,3
+"Zambia",551,1985,3
+"Zimbabwe",552,1985,4
+"Afghanistan",700,1986,5
+"Albania",339,1986,3
+"Algeria",615,1986,3
+"Angola",540,1986,3
+"Argentina",160,1986,2
+"Armenia",371,1986,2
+"Australia",900,1986,1
+"Austria",305,1986,1
+"Azerbaijan",373,1986,2
+"Bahrain",692,1986,3
+"Bangladesh",771,1986,3
+"Belarus",370,1986,2
+"Belgium",211,1986,2
+"Benin",434,1986,3
+"Bhutan",760,1986,1
+"Bolivia",145,1986,2
+"Bosnia and Herzegovina",346,1986,NA
+"Botswana",571,1986,1
+"Brazil",140,1986,5
+"Bulgaria",355,1986,2
+"Burkina Faso",439,1986,2
+"Burundi",516,1986,2
+"Cambodia",811,1986,4
+"Cameroon",471,1986,3
+"Canada",20,1986,1
+"Central African Repbulic",482,1986,2
+"Chad",483,1986,4
+"Chile",155,1986,3
+"China",710,1986,3
+"Colombia",100,1986,3
+"Comoros",581,1986,3
+"Congo, Republic of",484,1986,3
+"Congo, Democratic Republic of",490,1986,5
+"Costa Rica",94,1986,1
+"ivory Coast",437,1986,2
+"Croatia",344,1986,NA
+"Cuba",40,1986,4
+"Cyprus",352,1986,1
+"Czechoslovakia",315,1986,3
+"Czech Republic",316,1986,NA
+"Denmark",390,1986,1
+"Djibouti",522,1986,2
+"Dominican Republic",42,1986,2
+"Ecuador",130,1986,2
+"Egypt",651,1986,3
+"El Salvador",92,1986,3
+"Equatorial Guinea",411,1986,3
+"Eritrea",531,1986,NA
+"Estonia",366,1986,4
+"Ethiopia",530,1986,4
+"Fiji",950,1986,1
+"Finland",375,1986,1
+"France",220,1986,1
+"Gabon",481,1986,2
+"Gambia",420,1986,2
+"Georgia",372,1986,NA
+"Germany",255,1986,NA
+"Germany, East",265,1986,NA
+"Germany, West",260,1986,1
+"Ghana",452,1986,3
+"Greece",350,1986,1
+"Guatemala",90,1986,3
+"Guinea",438,1986,2
+"Guinea-Bissau",404,1986,3
+"Guyana",110,1986,3
+"Haiti",41,1986,2
+"Honduras",91,1986,2
+"Hungary",310,1986,2
+"iceland",395,1986,1
+"india",750,1986,4
+"indonesia",850,1986,3
+"iran",630,1986,5
+"iraq",645,1986,5
+"ireland",205,1986,2
+"israel",666,1986,1
+"italy",325,1986,2
+"Jamaica",51,1986,3
+"Japan",740,1986,1
+"Jordan",663,1986,2
+"Kazakhstan",705,1986,NA
+"Kenya",501,1986,3
+"South Korea",732,1986,3
+"North Korea",731,1986,4
+"Kuwait",690,1986,3
+"Kyrgyzstan",703,1986,NA
+"Laos",812,1986,2
+"Latvia",367,1986,4
+"Lebanon",660,1986,2
+"Lesotho",570,1986,2
+"Liberia",450,1986,3
+"Libya",620,1986,3
+"Lithuania",368,1986,4
+"Luxembourg",212,1986,1
+"Macedonia",343,1986,NA
+"Madagascar",580,1986,3
+"Malawi",553,1986,2
+"Malaysia",820,1986,1
+"Mali",432,1986,3
+"Mauritania",435,1986,1
+"Mauritius",590,1986,1
+"Mexico",70,1986,3
+"Moldova",359,1986,NA
+"Mongolia",712,1986,NA
+"Morocco",600,1986,4
+"Mozambique",541,1986,3
+"Myanmar",775,1986,3
+"Namibia",565,1986,3
+"Nepal",790,1986,4
+"Netherlands",210,1986,1
+"New Zealand",920,1986,1
+"Nicaragua",93,1986,3
+"Niger",436,1986,2
+"Nigeria",475,1986,1
+"Norway",385,1986,1
+"Oman",698,1986,1
+"Pakistan",770,1986,3
+"Panama",95,1986,2
+"Papua New Guinea",910,1986,1
+"Paraguay",150,1986,4
+"Peru",135,1986,4
+"Philippines",840,1986,4
+"Poland",290,1986,3
+"Portugal",235,1986,2
+"Qatar",694,1986,2
+"Romania",360,1986,3
+"Russia",365,1986,4
+"Rwanda",517,1986,1
+"Saudi Arabia",670,1986,2
+"Senegal",433,1986,2
+"Sierra Leone",451,1986,3
+"Singapore",830,1986,1
+"Slovak Republic",317,1986,NA
+"Slovenia",349,1986,NA
+"Somalia",520,1986,3
+"South Africa",560,1986,4
+"Spain",230,1986,3
+"Sri Lanka",780,1986,3
+"Sudan",625,1986,3
+"Swaziland",572,1986,2
+"Sweden",380,1986,1
+"Switzerland",225,1986,1
+"Syria",652,1986,5
+"Tajikistan",702,1986,NA
+"Tanzania",510,1986,4
+"Thailand",800,1986,3
+"Togo",461,1986,5
+"Tonga",955,1986,1
+"Tunisia",616,1986,2
+"Turkey",640,1986,5
+"Turkmenistan",701,1986,NA
+"Uganda",500,1986,3
+"Ukraine",369,1986,NA
+"United Arab Emirates",696,1986,1
+"United Kingdom",200,1986,2
+"Uruguay",165,1986,2
+"Uzbekistan",704,1986,NA
+"Venezuela",101,1986,2
+"Vietnam",816,1986,4
+"Yemen, North",678,1986,3
+"Yemen",679,1986,NA
+"Yemen, South",680,1986,3
+"Yugoslavia",345,1986,2
+"Zambia",551,1986,3
+"Zimbabwe",552,1986,4
+"Afghanistan",700,1987,5
+"Albania",339,1987,3
+"Algeria",615,1987,3
+"Angola",540,1987,3
+"Argentina",160,1987,2
+"Armenia",371,1987,1
+"Australia",900,1987,1
+"Austria",305,1987,2
+"Azerbaijan",373,1987,2
+"Bahrain",692,1987,3
+"Bangladesh",771,1987,3
+"Belarus",370,1987,3
+"Belgium",211,1987,1
+"Benin",434,1987,3
+"Bhutan",760,1987,1
+"Bolivia",145,1987,3
+"Bosnia and Herzegovina",346,1987,NA
+"Botswana",571,1987,2
+"Brazil",140,1987,5
+"Bulgaria",355,1987,3
+"Burkina Faso",439,1987,3
+"Burundi",516,1987,2
+"Cambodia",811,1987,4
+"Cameroon",471,1987,1
+"Canada",20,1987,1
+"Central African Repbulic",482,1987,2
+"Chad",483,1987,2
+"Chile",155,1987,3
+"China",710,1987,3
+"Colombia",100,1987,3
+"Comoros",581,1987,3
+"Congo, Republic of",484,1987,3
+"Congo, Democratic Republic of",490,1987,4
+"Costa Rica",94,1987,1
+"ivory Coast",437,1987,2
+"Croatia",344,1987,NA
+"Cuba",40,1987,4
+"Cyprus",352,1987,1
+"Czechoslovakia",315,1987,2
+"Czech Republic",316,1987,NA
+"Denmark",390,1987,1
+"Djibouti",522,1987,1
+"Dominican Republic",42,1987,2
+"Ecuador",130,1987,3
+"Egypt",651,1987,3
+"El Salvador",92,1987,3
+"Equatorial Guinea",411,1987,4
+"Eritrea",531,1987,NA
+"Estonia",366,1987,4
+"Ethiopia",530,1987,4
+"Fiji",950,1987,3
+"Finland",375,1987,1
+"France",220,1987,1
+"Gabon",481,1987,1
+"Gambia",420,1987,2
+"Georgia",372,1987,NA
+"Germany",255,1987,NA
+"Germany, East",265,1987,NA
+"Germany, West",260,1987,2
+"Ghana",452,1987,3
+"Greece",350,1987,3
+"Guatemala",90,1987,3
+"Guinea",438,1987,2
+"Guinea-Bissau",404,1987,2
+"Guyana",110,1987,2
+"Haiti",41,1987,3
+"Honduras",91,1987,3
+"Hungary",310,1987,1
+"iceland",395,1987,1
+"india",750,1987,4
+"indonesia",850,1987,4
+"iran",630,1987,5
+"iraq",645,1987,5
+"ireland",205,1987,2
+"israel",666,1987,4
+"italy",325,1987,3
+"Jamaica",51,1987,3
+"Japan",740,1987,1
+"Jordan",663,1987,3
+"Kazakhstan",705,1987,NA
+"Kenya",501,1987,3
+"South Korea",732,1987,3
+"North Korea",731,1987,4
+"Kuwait",690,1987,3
+"Kyrgyzstan",703,1987,NA
+"Laos",812,1987,3
+"Latvia",367,1987,4
+"Lebanon",660,1987,3
+"Lesotho",570,1987,2
+"Liberia",450,1987,3
+"Libya",620,1987,4
+"Lithuania",368,1987,4
+"Luxembourg",212,1987,1
+"Macedonia",343,1987,NA
+"Madagascar",580,1987,3
+"Malawi",553,1987,3
+"Malaysia",820,1987,2
+"Mali",432,1987,3
+"Mauritania",435,1987,3
+"Mauritius",590,1987,1
+"Mexico",70,1987,3
+"Moldova",359,1987,NA
+"Mongolia",712,1987,NA
+"Morocco",600,1987,3
+"Mozambique",541,1987,3
+"Myanmar",775,1987,3
+"Namibia",565,1987,2
+"Nepal",790,1987,5
+"Netherlands",210,1987,1
+"New Zealand",920,1987,1
+"Nicaragua",93,1987,4
+"Niger",436,1987,2
+"Nigeria",475,1987,2
+"Norway",385,1987,1
+"Oman",698,1987,1
+"Pakistan",770,1987,3
+"Panama",95,1987,4
+"Papua New Guinea",910,1987,1
+"Paraguay",150,1987,3
+"Peru",135,1987,5
+"Philippines",840,1987,4
+"Poland",290,1987,4
+"Portugal",235,1987,2
+"Qatar",694,1987,1
+"Romania",360,1987,3
+"Russia",365,1987,4
+"Rwanda",517,1987,1
+"Saudi Arabia",670,1987,4
+"Senegal",433,1987,2
+"Sierra Leone",451,1987,3
+"Singapore",830,1987,3
+"Slovak Republic",317,1987,NA
+"Slovenia",349,1987,NA
+"Somalia",520,1987,4
+"South Africa",560,1987,4
+"Spain",230,1987,3
+"Sri Lanka",780,1987,3
+"Sudan",625,1987,3
+"Swaziland",572,1987,2
+"Sweden",380,1987,1
+"Switzerland",225,1987,1
+"Syria",652,1987,4
+"Tajikistan",702,1987,NA
+"Tanzania",510,1987,3
+"Thailand",800,1987,3
+"Togo",461,1987,4
+"Tonga",955,1987,1
+"Tunisia",616,1987,3
+"Turkey",640,1987,5
+"Turkmenistan",701,1987,NA
+"Uganda",500,1987,3
+"Ukraine",369,1987,NA
+"United Arab Emirates",696,1987,1
+"United Kingdom",200,1987,1
+"Uruguay",165,1987,1
+"Uzbekistan",704,1987,NA
+"Venezuela",101,1987,3
+"Vietnam",816,1987,3
+"Yemen, North",678,1987,3
+"Yemen",679,1987,NA
+"Yemen, South",680,1987,3
+"Yugoslavia",345,1987,2
+"Zambia",551,1987,3
+"Zimbabwe",552,1987,3
+"Afghanistan",700,1988,5
+"Albania",339,1988,2
+"Algeria",615,1988,4
+"Angola",540,1988,3
+"Argentina",160,1988,3
+"Armenia",371,1988,2
+"Australia",900,1988,1
+"Austria",305,1988,1
+"Azerbaijan",373,1988,4
+"Bahrain",692,1988,3
+"Bangladesh",771,1988,3
+"Belarus",370,1988,4
+"Belgium",211,1988,1
+"Benin",434,1988,3
+"Bhutan",760,1988,1
+"Bolivia",145,1988,2
+"Bosnia and Herzegovina",346,1988,NA
+"Botswana",571,1988,3
+"Brazil",140,1988,5
+"Bulgaria",355,1988,4
+"Burkina Faso",439,1988,3
+"Burundi",516,1988,3
+"Cambodia",811,1988,4
+"Cameroon",471,1988,2
+"Canada",20,1988,1
+"Central African Repbulic",482,1988,1
+"Chad",483,1988,3
+"Chile",155,1988,3
+"China",710,1988,3
+"Colombia",100,1988,2
+"Comoros",581,1988,3
+"Congo, Republic of",484,1988,4
+"Congo, Democratic Republic of",490,1988,4
+"Costa Rica",94,1988,1
+"ivory Coast",437,1988,2
+"Croatia",344,1988,NA
+"Cuba",40,1988,4
+"Cyprus",352,1988,1
+"Czechoslovakia",315,1988,2
+"Czech Republic",316,1988,NA
+"Denmark",390,1988,1
+"Djibouti",522,1988,2
+"Dominican Republic",42,1988,2
+"Ecuador",130,1988,4
+"Egypt",651,1988,4
+"El Salvador",92,1988,3
+"Equatorial Guinea",411,1988,3
+"Eritrea",531,1988,NA
+"Estonia",366,1988,4
+"Ethiopia",530,1988,3
+"Fiji",950,1988,2
+"Finland",375,1988,1
+"France",220,1988,2
+"Gabon",481,1988,3
+"Gambia",420,1988,2
+"Georgia",372,1988,NA
+"Germany",255,1988,NA
+"Germany, East",265,1988,NA
+"Germany, West",260,1988,1
+"Ghana",452,1988,3
+"Greece",350,1988,2
+"Guatemala",90,1988,3
+"Guinea",438,1988,3
+"Guinea-Bissau",404,1988,3
+"Guyana",110,1988,2
+"Haiti",41,1988,3
+"Honduras",91,1988,3
+"Hungary",310,1988,1
+"iceland",395,1988,1
+"india",750,1988,4
+"indonesia",850,1988,4
+"iran",630,1988,5
+"iraq",645,1988,5
+"ireland",205,1988,2
+"israel",666,1988,4
+"italy",325,1988,1
+"Jamaica",51,1988,3
+"Japan",740,1988,1
+"Jordan",663,1988,3
+"Kazakhstan",705,1988,NA
+"Kenya",501,1988,3
+"South Korea",732,1988,2
+"North Korea",731,1988,4
+"Kuwait",690,1988,3
+"Kyrgyzstan",703,1988,NA
+"Laos",812,1988,2
+"Latvia",367,1988,4
+"Lebanon",660,1988,4
+"Lesotho",570,1988,3
+"Liberia",450,1988,3
+"Libya",620,1988,4
+"Lithuania",368,1988,4
+"Luxembourg",212,1988,1
+"Macedonia",343,1988,NA
+"Madagascar",580,1988,3
+"Malawi",553,1988,2
+"Malaysia",820,1988,2
+"Mali",432,1988,2
+"Mauritania",435,1988,3
+"Mauritius",590,1988,1
+"Mexico",70,1988,3
+"Moldova",359,1988,NA
+"Mongolia",712,1988,NA
+"Morocco",600,1988,3
+"Mozambique",541,1988,4
+"Myanmar",775,1988,3
+"Namibia",565,1988,3
+"Nepal",790,1988,4
+"Netherlands",210,1988,1
+"New Zealand",920,1988,1
+"Nicaragua",93,1988,4
+"Niger",436,1988,3
+"Nigeria",475,1988,3
+"Norway",385,1988,1
+"Oman",698,1988,2
+"Pakistan",770,1988,4
+"Panama",95,1988,3
+"Papua New Guinea",910,1988,1
+"Paraguay",150,1988,3
+"Peru",135,1988,4
+"Philippines",840,1988,4
+"Poland",290,1988,3
+"Portugal",235,1988,1
+"Qatar",694,1988,3
+"Romania",360,1988,3
+"Russia",365,1988,4
+"Rwanda",517,1988,1
+"Saudi Arabia",670,1988,3
+"Senegal",433,1988,2
+"Sierra Leone",451,1988,3
+"Singapore",830,1988,2
+"Slovak Republic",317,1988,NA
+"Slovenia",349,1988,NA
+"Somalia",520,1988,4
+"South Africa",560,1988,4
+"Spain",230,1988,2
+"Sri Lanka",780,1988,4
+"Sudan",625,1988,3
+"Swaziland",572,1988,2
+"Sweden",380,1988,1
+"Switzerland",225,1988,1
+"Syria",652,1988,5
+"Tajikistan",702,1988,NA
+"Tanzania",510,1988,3
+"Thailand",800,1988,3
+"Togo",461,1988,3
+"Tonga",955,1988,1
+"Tunisia",616,1988,3
+"Turkey",640,1988,3
+"Turkmenistan",701,1988,NA
+"Uganda",500,1988,3
+"Ukraine",369,1988,NA
+"United Arab Emirates",696,1988,3
+"United Kingdom",200,1988,2
+"Uruguay",165,1988,1
+"Uzbekistan",704,1988,NA
+"Venezuela",101,1988,3
+"Vietnam",816,1988,3
+"Yemen, North",678,1988,3
+"Yemen",679,1988,NA
+"Yemen, South",680,1988,3
+"Yugoslavia",345,1988,4
+"Zambia",551,1988,3
+"Zimbabwe",552,1988,3
+"Afghanistan",700,1989,5
+"Albania",339,1989,2
+"Algeria",615,1989,2
+"Angola",540,1989,3
+"Argentina",160,1989,3
+"Armenia",371,1989,2
+"Australia",900,1989,1
+"Austria",305,1989,1
+"Azerbaijan",373,1989,4
+"Bahrain",692,1989,3
+"Bangladesh",771,1989,3
+"Belarus",370,1989,3
+"Belgium",211,1989,1
+"Benin",434,1989,3
+"Bhutan",760,1989,1
+"Bolivia",145,1989,3
+"Bosnia and Herzegovina",346,1989,NA
+"Botswana",571,1989,3
+"Brazil",140,1989,5
+"Bulgaria",355,1989,4
+"Burkina Faso",439,1989,3
+"Burundi",516,1989,3
+"Cambodia",811,1989,3
+"Cameroon",471,1989,3
+"Canada",20,1989,1
+"Central African Repbulic",482,1989,2
+"Chad",483,1989,3
+"Chile",155,1989,3
+"China",710,1989,3
+"Colombia",100,1989,5
+"Comoros",581,1989,3
+"Congo, Republic of",484,1989,3
+"Congo, Democratic Republic of",490,1989,3
+"Costa Rica",94,1989,2
+"ivory Coast",437,1989,2
+"Croatia",344,1989,NA
+"Cuba",40,1989,3
+"Cyprus",352,1989,1
+"Czechoslovakia",315,1989,2
+"Czech Republic",316,1989,NA
+"Denmark",390,1989,1
+"Djibouti",522,1989,3
+"Dominican Republic",42,1989,2
+"Ecuador",130,1989,3
+"Egypt",651,1989,4
+"El Salvador",92,1989,4
+"Equatorial Guinea",411,1989,3
+"Eritrea",531,1989,NA
+"Estonia",366,1989,4
+"Ethiopia",530,1989,4
+"Fiji",950,1989,2
+"Finland",375,1989,1
+"France",220,1989,2
+"Gabon",481,1989,3
+"Gambia",420,1989,2
+"Georgia",372,1989,NA
+"Germany",255,1989,NA
+"Germany, East",265,1989,NA
+"Germany, West",260,1989,1
+"Ghana",452,1989,2
+"Greece",350,1989,3
+"Guatemala",90,1989,2
+"Guinea",438,1989,2
+"Guinea-Bissau",404,1989,3
+"Guyana",110,1989,2
+"Haiti",41,1989,3
+"Honduras",91,1989,3
+"Hungary",310,1989,1
+"iceland",395,1989,1
+"india",750,1989,4
+"indonesia",850,1989,4
+"iran",630,1989,4
+"iraq",645,1989,5
+"ireland",205,1989,1
+"israel",666,1989,4
+"italy",325,1989,1
+"Jamaica",51,1989,3
+"Japan",740,1989,1
+"Jordan",663,1989,3
+"Kazakhstan",705,1989,NA
+"Kenya",501,1989,3
+"South Korea",732,1989,3
+"North Korea",731,1989,NA
+"Kuwait",690,1989,3
+"Kyrgyzstan",703,1989,NA
+"Laos",812,1989,2
+"Latvia",367,1989,3
+"Lebanon",660,1989,3
+"Lesotho",570,1989,2
+"Liberia",450,1989,3
+"Libya",620,1989,NA
+"Lithuania",368,1989,4
+"Luxembourg",212,1989,1
+"Macedonia",343,1989,NA
+"Madagascar",580,1989,3
+"Malawi",553,1989,2
+"Malaysia",820,1989,1
+"Mali",432,1989,3
+"Mauritania",435,1989,4
+"Mauritius",590,1989,1
+"Mexico",70,1989,3
+"Moldova",359,1989,NA
+"Mongolia",712,1989,NA
+"Morocco",600,1989,4
+"Mozambique",541,1989,4
+"Myanmar",775,1989,4
+"Namibia",565,1989,3
+"Nepal",790,1989,4
+"Netherlands",210,1989,1
+"New Zealand",920,1989,1
+"Nicaragua",93,1989,4
+"Niger",436,1989,2
+"Nigeria",475,1989,3
+"Norway",385,1989,1
+"Oman",698,1989,2
+"Pakistan",770,1989,4
+"Panama",95,1989,4
+"Papua New Guinea",910,1989,3
+"Paraguay",150,1989,3
+"Peru",135,1989,5
+"Philippines",840,1989,4
+"Poland",290,1989,2
+"Portugal",235,1989,1
+"Qatar",694,1989,2
+"Romania",360,1989,3
+"Russia",365,1989,4
+"Rwanda",517,1989,1
+"Saudi Arabia",670,1989,4
+"Senegal",433,1989,3
+"Sierra Leone",451,1989,3
+"Singapore",830,1989,3
+"Slovak Republic",317,1989,NA
+"Slovenia",349,1989,NA
+"Somalia",520,1989,3
+"South Africa",560,1989,4
+"Spain",230,1989,1
+"Sri Lanka",780,1989,4
+"Sudan",625,1989,3
+"Swaziland",572,1989,2
+"Sweden",380,1989,2
+"Switzerland",225,1989,1
+"Syria",652,1989,5
+"Tajikistan",702,1989,NA
+"Tanzania",510,1989,4
+"Thailand",800,1989,3
+"Togo",461,1989,4
+"Tonga",955,1989,1
+"Tunisia",616,1989,3
+"Turkey",640,1989,5
+"Turkmenistan",701,1989,NA
+"Uganda",500,1989,4
+"Ukraine",369,1989,NA
+"United Arab Emirates",696,1989,3
+"United Kingdom",200,1989,1
+"Uruguay",165,1989,1
+"Uzbekistan",704,1989,NA
+"Venezuela",101,1989,3
+"Vietnam",816,1989,2
+"Yemen, North",678,1989,3
+"Yemen",679,1989,NA
+"Yemen, South",680,1989,3
+"Yugoslavia",345,1989,3
+"Zambia",551,1989,3
+"Zimbabwe",552,1989,4
+"Afghanistan",700,1990,5
+"Albania",339,1990,3
+"Algeria",615,1990,3
+"Angola",540,1990,3
+"Argentina",160,1990,3
+"Armenia",371,1990,4
+"Australia",900,1990,3
+"Austria",305,1990,2
+"Azerbaijan",373,1990,4
+"Bahrain",692,1990,3
+"Bangladesh",771,1990,3
+"Belarus",370,1990,3
+"Belgium",211,1990,1
+"Benin",434,1990,1
+"Bhutan",760,1990,1
+"Bolivia",145,1990,3
+"Bosnia and Herzegovina",346,1990,NA
+"Botswana",571,1990,2
+"Brazil",140,1990,5
+"Bulgaria",355,1990,1
+"Burkina Faso",439,1990,3
+"Burundi",516,1990,2
+"Cambodia",811,1990,3
+"Cameroon",471,1990,2
+"Canada",20,1990,1
+"Central African Repbulic",482,1990,3
+"Chad",483,1990,4
+"Chile",155,1990,3
+"China",710,1990,4
+"Colombia",100,1990,5
+"Comoros",581,1990,2
+"Congo, Republic of",484,1990,4
+"Congo, Democratic Republic of",490,1990,2
+"Costa Rica",94,1990,2
+"ivory Coast",437,1990,3
+"Croatia",344,1990,NA
+"Cuba",40,1990,3
+"Cyprus",352,1990,1
+"Czechoslovakia",315,1990,1
+"Czech Republic",316,1990,NA
+"Denmark",390,1990,1
+"Djibouti",522,1990,3
+"Dominican Republic",42,1990,2
+"Ecuador",130,1990,5
+"Egypt",651,1990,4
+"El Salvador",92,1990,4
+"Equatorial Guinea",411,1990,5
+"Eritrea",531,1990,NA
+"Estonia",366,1990,3
+"Ethiopia",530,1990,4
+"Fiji",950,1990,2
+"Finland",375,1990,1
+"France",220,1990,2
+"Gabon",481,1990,2
+"Gambia",420,1990,2
+"Georgia",372,1990,NA
+"Germany",255,1990,1
+"Germany, East",265,1990,NA
+"Germany, West",260,1990,NA
+"Ghana",452,1990,1
+"Greece",350,1990,2
+"Guatemala",90,1990,4
+"Guinea",438,1990,3
+"Guinea-Bissau",404,1990,2
+"Guyana",110,1990,2
+"Haiti",41,1990,4
+"Honduras",91,1990,4
+"Hungary",310,1990,1
+"iceland",395,1990,1
+"india",750,1990,4
+"indonesia",850,1990,4
+"iran",630,1990,3
+"iraq",645,1990,5
+"ireland",205,1990,1
+"israel",666,1990,1
+"italy",325,1990,1
+"Jamaica",51,1990,4
+"Japan",740,1990,3
+"Jordan",663,1990,1
+"Kazakhstan",705,1990,NA
+"Kenya",501,1990,3
+"South Korea",732,1990,4
+"North Korea",731,1990,NA
+"Kuwait",690,1990,4
+"Kyrgyzstan",703,1990,NA
+"Laos",812,1990,3
+"Latvia",367,1990,3
+"Lebanon",660,1990,3
+"Lesotho",570,1990,2
+"Liberia",450,1990,5
+"Libya",620,1990,3
+"Lithuania",368,1990,3
+"Luxembourg",212,1990,1
+"Macedonia",343,1990,NA
+"Madagascar",580,1990,2
+"Malawi",553,1990,3
+"Malaysia",820,1990,2
+"Mali",432,1990,3
+"Mauritania",435,1990,3
+"Mauritius",590,1990,2
+"Mexico",70,1990,3
+"Moldova",359,1990,NA
+"Mongolia",712,1990,1
+"Morocco",600,1990,3
+"Mozambique",541,1990,3
+"Myanmar",775,1990,5
+"Namibia",565,1990,3
+"Nepal",790,1990,4
+"Netherlands",210,1990,1
+"New Zealand",920,1990,1
+"Nicaragua",93,1990,3
+"Niger",436,1990,3
+"Nigeria",475,1990,4
+"Norway",385,1990,1
+"Oman",698,1990,1
+"Pakistan",770,1990,4
+"Panama",95,1990,2
+"Papua New Guinea",910,1990,3
+"Paraguay",150,1990,4
+"Peru",135,1990,5
+"Philippines",840,1990,4
+"Poland",290,1990,2
+"Portugal",235,1990,3
+"Qatar",694,1990,1
+"Romania",360,1990,3
+"Russia",365,1990,4
+"Rwanda",517,1990,2
+"Saudi Arabia",670,1990,4
+"Senegal",433,1990,4
+"Sierra Leone",451,1990,2
+"Singapore",830,1990,2
+"Slovak Republic",317,1990,NA
+"Slovenia",349,1990,NA
+"Somalia",520,1990,3
+"South Africa",560,1990,3
+"Spain",230,1990,1
+"Sri Lanka",780,1990,3
+"Sudan",625,1990,5
+"Swaziland",572,1990,2
+"Sweden",380,1990,1
+"Switzerland",225,1990,1
+"Syria",652,1990,5
+"Tajikistan",702,1990,NA
+"Tanzania",510,1990,4
+"Thailand",800,1990,3
+"Togo",461,1990,3
+"Tonga",955,1990,1
+"Tunisia",616,1990,3
+"Turkey",640,1990,4
+"Turkmenistan",701,1990,NA
+"Uganda",500,1990,4
+"Ukraine",369,1990,NA
+"United Arab Emirates",696,1990,3
+"United Kingdom",200,1990,1
+"Uruguay",165,1990,2
+"Uzbekistan",704,1990,NA
+"Venezuela",101,1990,4
+"Vietnam",816,1990,4
+"Yemen, North",678,1990,NA
+"Yemen",679,1990,3
+"Yemen, South",680,1990,NA
+"Yugoslavia",345,1990,4
+"Zambia",551,1990,3
+"Zimbabwe",552,1990,4
+"Afghanistan",700,1991,4
+"Albania",339,1991,2
+"Algeria",615,1991,3
+"Angola",540,1991,3
+"Argentina",160,1991,3
+"Armenia",371,1991,4
+"Australia",900,1991,3
+"Austria",305,1991,2
+"Azerbaijan",373,1991,4
+"Bahrain",692,1991,3
+"Bangladesh",771,1991,4
+"Belarus",370,1991,2
+"Belgium",211,1991,1
+"Benin",434,1991,1
+"Bhutan",760,1991,3
+"Bolivia",145,1991,3
+"Bosnia and Herzegovina",346,1991,NA
+"Botswana",571,1991,1
+"Brazil",140,1991,5
+"Bulgaria",355,1991,1
+"Burkina Faso",439,1991,3
+"Burundi",516,1991,2
+"Cambodia",811,1991,2
+"Cameroon",471,1991,4
+"Canada",20,1991,1
+"Central African Repbulic",482,1991,2
+"Chad",483,1991,4
+"Chile",155,1991,3
+"China",710,1991,4
+"Colombia",100,1991,5
+"Comoros",581,1991,3
+"Congo, Republic of",484,1991,4
+"Congo, Democratic Republic of",490,1991,3
+"Costa Rica",94,1991,1
+"ivory Coast",437,1991,2
+"Croatia",344,1991,NA
+"Cuba",40,1991,3
+"Cyprus",352,1991,1
+"Czechoslovakia",315,1991,1
+"Czech Republic",316,1991,NA
+"Denmark",390,1991,2
+"Djibouti",522,1991,4
+"Dominican Republic",42,1991,3
+"Ecuador",130,1991,4
+"Egypt",651,1991,4
+"El Salvador",92,1991,4
+"Equatorial Guinea",411,1991,5
+"Eritrea",531,1991,NA
+"Estonia",366,1991,NA
+"Ethiopia",530,1991,5
+"Fiji",950,1991,2
+"Finland",375,1991,1
+"France",220,1991,1
+"Gabon",481,1991,3
+"Gambia",420,1991,2
+"Georgia",372,1991,NA
+"Germany",255,1991,1
+"Germany, East",265,1991,NA
+"Germany, West",260,1991,NA
+"Ghana",452,1991,2
+"Greece",350,1991,2
+"Guatemala",90,1991,4
+"Guinea",438,1991,3
+"Guinea-Bissau",404,1991,2
+"Guyana",110,1991,2
+"Haiti",41,1991,3
+"Honduras",91,1991,3
+"Hungary",310,1991,1
+"iceland",395,1991,1
+"india",750,1991,4
+"indonesia",850,1991,4
+"iran",630,1991,3
+"iraq",645,1991,5
+"ireland",205,1991,1
+"israel",666,1991,1
+"italy",325,1991,1
+"Jamaica",51,1991,4
+"Japan",740,1991,3
+"Jordan",663,1991,3
+"Kazakhstan",705,1991,NA
+"Kenya",501,1991,3
+"South Korea",732,1991,3
+"North Korea",731,1991,NA
+"Kuwait",690,1991,4
+"Kyrgyzstan",703,1991,NA
+"Laos",812,1991,1
+"Latvia",367,1991,NA
+"Lebanon",660,1991,2
+"Lesotho",570,1991,2
+"Liberia",450,1991,3
+"Libya",620,1991,3
+"Lithuania",368,1991,NA
+"Luxembourg",212,1991,1
+"Macedonia",343,1991,NA
+"Madagascar",580,1991,2
+"Malawi",553,1991,3
+"Malaysia",820,1991,1
+"Mali",432,1991,1
+"Mauritania",435,1991,4
+"Mauritius",590,1991,2
+"Mexico",70,1991,5
+"Moldova",359,1991,NA
+"Mongolia",712,1991,1
+"Morocco",600,1991,3
+"Mozambique",541,1991,3
+"Myanmar",775,1991,4
+"Namibia",565,1991,3
+"Nepal",790,1991,4
+"Netherlands",210,1991,1
+"New Zealand",920,1991,1
+"Nicaragua",93,1991,3
+"Niger",436,1991,3
+"Nigeria",475,1991,4
+"Norway",385,1991,1
+"Oman",698,1991,2
+"Pakistan",770,1991,4
+"Panama",95,1991,3
+"Papua New Guinea",910,1991,4
+"Paraguay",150,1991,3
+"Peru",135,1991,4
+"Philippines",840,1991,4
+"Poland",290,1991,2
+"Portugal",235,1991,2
+"Qatar",694,1991,2
+"Romania",360,1991,3
+"Russia",365,1991,3
+"Rwanda",517,1991,4
+"Saudi Arabia",670,1991,4
+"Senegal",433,1991,3
+"Sierra Leone",451,1991,2
+"Singapore",830,1991,1
+"Slovak Republic",317,1991,NA
+"Slovenia",349,1991,NA
+"Somalia",520,1991,3
+"South Africa",560,1991,3
+"Spain",230,1991,1
+"Sri Lanka",780,1991,4
+"Sudan",625,1991,5
+"Swaziland",572,1991,2
+"Sweden",380,1991,1
+"Switzerland",225,1991,1
+"Syria",652,1991,5
+"Tajikistan",702,1991,NA
+"Tanzania",510,1991,4
+"Thailand",800,1991,3
+"Togo",461,1991,NA
+"Tonga",955,1991,1
+"Tunisia",616,1991,3
+"Turkey",640,1991,4
+"Turkmenistan",701,1991,NA
+"Uganda",500,1991,4
+"Ukraine",369,1991,NA
+"United Arab Emirates",696,1991,1
+"United Kingdom",200,1991,2
+"Uruguay",165,1991,3
+"Uzbekistan",704,1991,NA
+"Venezuela",101,1991,4
+"Vietnam",816,1991,2
+"Yemen, North",678,1991,NA
+"Yemen",679,1991,5
+"Yemen, South",680,1991,NA
+"Yugoslavia",345,1991,4
+"Zambia",551,1991,2
+"Zimbabwe",552,1991,4
+"Afghanistan",700,1992,4
+"Albania",339,1992,1
+"Algeria",615,1992,3
+"Angola",540,1992,4
+"Argentina",160,1992,4
+"Armenia",371,1992,4
+"Australia",900,1992,3
+"Austria",305,1992,2
+"Azerbaijan",373,1992,4
+"Bahrain",692,1992,3
+"Bangladesh",771,1992,4
+"Belarus",370,1992,2
+"Belgium",211,1992,1
+"Benin",434,1992,1
+"Bhutan",760,1992,5
+"Bolivia",145,1992,3
+"Bosnia and Herzegovina",346,1992,4
+"Botswana",571,1992,2
+"Brazil",140,1992,5
+"Bulgaria",355,1992,2
+"Burkina Faso",439,1992,3
+"Burundi",516,1992,4
+"Cambodia",811,1992,3
+"Cameroon",471,1992,4
+"Canada",20,1992,2
+"Central African Repbulic",482,1992,4
+"Chad",483,1992,3
+"Chile",155,1992,3
+"China",710,1992,5
+"Colombia",100,1992,3
+"Comoros",581,1992,1
+"Congo, Republic of",484,1992,2
+"Congo, Democratic Republic of",490,1992,4
+"Costa Rica",94,1992,2
+"ivory Coast",437,1992,2
+"Croatia",344,1992,2
+"Cuba",40,1992,4
+"Cyprus",352,1992,2
+"Czechoslovakia",315,1992,1
+"Czech Republic",316,1992,NA
+"Denmark",390,1992,1
+"Djibouti",522,1992,3
+"Dominican Republic",42,1992,4
+"Ecuador",130,1992,2
+"Egypt",651,1992,4
+"El Salvador",92,1992,3
+"Equatorial Guinea",411,1992,5
+"Eritrea",531,1992,NA
+"Estonia",366,1992,NA
+"Ethiopia",530,1992,2
+"Fiji",950,1992,2
+"Finland",375,1992,1
+"France",220,1992,1
+"Gabon",481,1992,3
+"Gambia",420,1992,2
+"Georgia",372,1992,4
+"Germany",255,1992,1
+"Germany, East",265,1992,NA
+"Germany, West",260,1992,NA
+"Ghana",452,1992,2
+"Greece",350,1992,1
+"Guatemala",90,1992,3
+"Guinea",438,1992,2
+"Guinea-Bissau",404,1992,3
+"Guyana",110,1992,3
+"Haiti",41,1992,4
+"Honduras",91,1992,3
+"Hungary",310,1992,2
+"iceland",395,1992,1
+"india",750,1992,4
+"indonesia",850,1992,4
+"iran",630,1992,3
+"iraq",645,1992,5
+"ireland",205,1992,1
+"israel",666,1992,1
+"italy",325,1992,2
+"Jamaica",51,1992,4
+"Japan",740,1992,2
+"Jordan",663,1992,3
+"Kazakhstan",705,1992,3
+"Kenya",501,1992,3
+"South Korea",732,1992,3
+"North Korea",731,1992,NA
+"Kuwait",690,1992,3
+"Kyrgyzstan",703,1992,1
+"Laos",812,1992,1
+"Latvia",367,1992,1
+"Lebanon",660,1992,3
+"Lesotho",570,1992,2
+"Liberia",450,1992,4
+"Libya",620,1992,3
+"Lithuania",368,1992,1
+"Luxembourg",212,1992,1
+"Macedonia",343,1992,2
+"Madagascar",580,1992,1
+"Malawi",553,1992,3
+"Malaysia",820,1992,2
+"Mali",432,1992,1
+"Mauritania",435,1992,5
+"Mauritius",590,1992,2
+"Mexico",70,1992,5
+"Moldova",359,1992,3
+"Mongolia",712,1992,1
+"Morocco",600,1992,3
+"Mozambique",541,1992,3
+"Myanmar",775,1992,3
+"Namibia",565,1992,3
+"Nepal",790,1992,4
+"Netherlands",210,1992,1
+"New Zealand",920,1992,1
+"Nicaragua",93,1992,3
+"Niger",436,1992,2
+"Nigeria",475,1992,5
+"Norway",385,1992,1
+"Oman",698,1992,1
+"Pakistan",770,1992,4
+"Panama",95,1992,3
+"Papua New Guinea",910,1992,3
+"Paraguay",150,1992,4
+"Peru",135,1992,5
+"Philippines",840,1992,4
+"Poland",290,1992,2
+"Portugal",235,1992,2
+"Qatar",694,1992,1
+"Romania",360,1992,2
+"Russia",365,1992,4
+"Rwanda",517,1992,3
+"Saudi Arabia",670,1992,3
+"Senegal",433,1992,3
+"Sierra Leone",451,1992,2
+"Singapore",830,1992,2
+"Slovak Republic",317,1992,NA
+"Slovenia",349,1992,1
+"Somalia",520,1992,4
+"South Africa",560,1992,3
+"Spain",230,1992,2
+"Sri Lanka",780,1992,4
+"Sudan",625,1992,5
+"Swaziland",572,1992,2
+"Sweden",380,1992,1
+"Switzerland",225,1992,1
+"Syria",652,1992,5
+"Tajikistan",702,1992,3
+"Tanzania",510,1992,4
+"Thailand",800,1992,3
+"Togo",461,1992,3
+"Tonga",955,1992,1
+"Tunisia",616,1992,4
+"Turkey",640,1992,4
+"Turkmenistan",701,1992,2
+"Uganda",500,1992,3
+"Ukraine",369,1992,2
+"United Arab Emirates",696,1992,1
+"United Kingdom",200,1992,3
+"Uruguay",165,1992,2
+"Uzbekistan",704,1992,2
+"Venezuela",101,1992,3
+"Vietnam",816,1992,2
+"Yemen, North",678,1992,NA
+"Yemen",679,1992,3
+"Yemen, South",680,1992,NA
+"Yugoslavia",345,1992,3
+"Zambia",551,1992,4
+"Zimbabwe",552,1992,3
+"Afghanistan",700,1993,5
+"Albania",339,1993,2
+"Algeria",615,1993,5
+"Angola",540,1993,2
+"Argentina",160,1993,2
+"Armenia",371,1993,NA
+"Australia",900,1993,2
+"Austria",305,1993,2
+"Azerbaijan",373,1993,NA
+"Bahrain",692,1993,5
+"Bangladesh",771,1993,4
+"Belarus",370,1993,NA
+"Belgium",211,1993,2
+"Benin",434,1993,1
+"Bhutan",760,1993,3
+"Bolivia",145,1993,3
+"Bosnia and Herzegovina",346,1993,4
+"Botswana",571,1993,4
+"Brazil",140,1993,4
+"Bulgaria",355,1993,2
+"Burkina Faso",439,1993,3
+"Burundi",516,1993,3
+"Cambodia",811,1993,3
+"Cameroon",471,1993,5
+"Canada",20,1993,1
+"Central African Repbulic",482,1993,2
+"Chad",483,1993,3
+"Chile",155,1993,3
+"China",710,1993,5
+"Colombia",100,1993,5
+"Comoros",581,1993,1
+"Congo, Republic of",484,1993,3
+"Congo, Democratic Republic of",490,1993,5
+"Costa Rica",94,1993,2
+"ivory Coast",437,1993,2
+"Croatia",344,1993,3
+"Cuba",40,1993,4
+"Cyprus",352,1993,3
+"Czechoslovakia",315,1993,NA
+"Czech Republic",316,1993,1
+"Denmark",390,1993,1
+"Djibouti",522,1993,3
+"Dominican Republic",42,1993,2
+"Ecuador",130,1993,3
+"Egypt",651,1993,4
+"El Salvador",92,1993,3
+"Equatorial Guinea",411,1993,5
+"Eritrea",531,1993,1
+"Estonia",366,1993,2
+"Ethiopia",530,1993,2
+"Fiji",950,1993,2
+"Finland",375,1993,1
+"France",220,1993,2
+"Gabon",481,1993,4
+"Gambia",420,1993,2
+"Georgia",372,1993,5
+"Germany",255,1993,2
+"Germany, East",265,1993,NA
+"Germany, West",260,1993,NA
+"Ghana",452,1993,3
+"Greece",350,1993,3
+"Guatemala",90,1993,3
+"Guinea",438,1993,3
+"Guinea-Bissau",404,1993,4
+"Guyana",110,1993,3
+"Haiti",41,1993,4
+"Honduras",91,1993,4
+"Hungary",310,1993,2
+"iceland",395,1993,1
+"india",750,1993,4
+"indonesia",850,1993,5
+"iran",630,1993,3
+"iraq",645,1993,5
+"ireland",205,1993,1
+"israel",666,1993,2
+"italy",325,1993,2
+"Jamaica",51,1993,4
+"Japan",740,1993,3
+"Jordan",663,1993,3
+"Kazakhstan",705,1993,1
+"Kenya",501,1993,3
+"South Korea",732,1993,2
+"North Korea",731,1993,NA
+"Kuwait",690,1993,3
+"Kyrgyzstan",703,1993,1
+"Laos",812,1993,1
+"Latvia",367,1993,2
+"Lebanon",660,1993,3
+"Lesotho",570,1993,2
+"Liberia",450,1993,4
+"Libya",620,1993,3
+"Lithuania",368,1993,2
+"Luxembourg",212,1993,1
+"Macedonia",343,1993,2
+"Madagascar",580,1993,3
+"Malawi",553,1993,2
+"Malaysia",820,1993,2
+"Mali",432,1993,1
+"Mauritania",435,1993,2
+"Mauritius",590,1993,2
+"Mexico",70,1993,4
+"Moldova",359,1993,2
+"Mongolia",712,1993,1
+"Morocco",600,1993,3
+"Mozambique",541,1993,3
+"Myanmar",775,1993,2
+"Namibia",565,1993,3
+"Nepal",790,1993,3
+"Netherlands",210,1993,1
+"New Zealand",920,1993,1
+"Nicaragua",93,1993,3
+"Niger",436,1993,2
+"Nigeria",475,1993,5
+"Norway",385,1993,1
+"Oman",698,1993,2
+"Pakistan",770,1993,5
+"Panama",95,1993,2
+"Papua New Guinea",910,1993,3
+"Paraguay",150,1993,3
+"Peru",135,1993,5
+"Philippines",840,1993,4
+"Poland",290,1993,2
+"Portugal",235,1993,3
+"Qatar",694,1993,1
+"Romania",360,1993,4
+"Russia",365,1993,3
+"Rwanda",517,1993,4
+"Saudi Arabia",670,1993,3
+"Senegal",433,1993,3
+"Sierra Leone",451,1993,3
+"Singapore",830,1993,2
+"Slovak Republic",317,1993,1
+"Slovenia",349,1993,1
+"Somalia",520,1993,3
+"South Africa",560,1993,4
+"Spain",230,1993,2
+"Sri Lanka",780,1993,4
+"Sudan",625,1993,5
+"Swaziland",572,1993,3
+"Sweden",380,1993,1
+"Switzerland",225,1993,1
+"Syria",652,1993,5
+"Tajikistan",702,1993,3
+"Tanzania",510,1993,4
+"Thailand",800,1993,3
+"Togo",461,1993,4
+"Tonga",955,1993,1
+"Tunisia",616,1993,3
+"Turkey",640,1993,4
+"Turkmenistan",701,1993,1
+"Uganda",500,1993,3
+"Ukraine",369,1993,2
+"United Arab Emirates",696,1993,1
+"United Kingdom",200,1993,3
+"Uruguay",165,1993,3
+"Uzbekistan",704,1993,3
+"Venezuela",101,1993,5
+"Vietnam",816,1993,1
+"Yemen, North",678,1993,NA
+"Yemen",679,1993,3
+"Yemen, South",680,1993,NA
+"Yugoslavia",345,1993,4
+"Zambia",551,1993,4
+"Zimbabwe",552,1993,2
+"Afghanistan",700,1994,5
+"Albania",339,1994,2
+"Algeria",615,1994,5
+"Angola",540,1994,2
+"Argentina",160,1994,2
+"Armenia",371,1994,NA
+"Australia",900,1994,3
+"Austria",305,1994,2
+"Azerbaijan",373,1994,NA
+"Bahrain",692,1994,4
+"Bangladesh",771,1994,3
+"Belarus",370,1994,NA
+"Belgium",211,1994,1
+"Benin",434,1994,1
+"Bhutan",760,1994,3
+"Bolivia",145,1994,2
+"Bosnia and Herzegovina",346,1994,4
+"Botswana",571,1994,3
+"Brazil",140,1994,4
+"Bulgaria",355,1994,2
+"Burkina Faso",439,1994,3
+"Burundi",516,1994,3
+"Cambodia",811,1994,3
+"Cameroon",471,1994,4
+"Canada",20,1994,2
+"Central African Repbulic",482,1994,2
+"Chad",483,1994,3
+"Chile",155,1994,3
+"China",710,1994,5
+"Colombia",100,1994,3
+"Comoros",581,1994,2
+"Congo, Republic of",484,1994,3
+"Congo, Democratic Republic of",490,1994,5
+"Costa Rica",94,1994,2
+"ivory Coast",437,1994,2
+"Croatia",344,1994,4
+"Cuba",40,1994,3
+"Cyprus",352,1994,2
+"Czechoslovakia",315,1994,NA
+"Czech Republic",316,1994,1
+"Denmark",390,1994,2
+"Djibouti",522,1994,2
+"Dominican Republic",42,1994,2
+"Ecuador",130,1994,3
+"Egypt",651,1994,4
+"El Salvador",92,1994,3
+"Equatorial Guinea",411,1994,5
+"Eritrea",531,1994,2
+"Estonia",366,1994,2
+"Ethiopia",530,1994,3
+"Fiji",950,1994,2
+"Finland",375,1994,1
+"France",220,1994,1
+"Gabon",481,1994,4
+"Gambia",420,1994,2
+"Georgia",372,1994,4
+"Germany",255,1994,2
+"Germany, East",265,1994,NA
+"Germany, West",260,1994,NA
+"Ghana",452,1994,2
+"Greece",350,1994,2
+"Guatemala",90,1994,4
+"Guinea",438,1994,3
+"Guinea-Bissau",404,1994,3
+"Guyana",110,1994,2
+"Haiti",41,1994,5
+"Honduras",91,1994,3
+"Hungary",310,1994,2
+"iceland",395,1994,1
+"india",750,1994,4
+"indonesia",850,1994,4
+"iran",630,1994,3
+"iraq",645,1994,5
+"ireland",205,1994,2
+"israel",666,1994,2
+"italy",325,1994,3
+"Jamaica",51,1994,3
+"Japan",740,1994,3
+"Jordan",663,1994,3
+"Kazakhstan",705,1994,2
+"Kenya",501,1994,3
+"South Korea",732,1994,3
+"North Korea",731,1994,NA
+"Kuwait",690,1994,3
+"Kyrgyzstan",703,1994,2
+"Laos",812,1994,2
+"Latvia",367,1994,2
+"Lebanon",660,1994,3
+"Lesotho",570,1994,3
+"Liberia",450,1994,4
+"Libya",620,1994,3
+"Lithuania",368,1994,2
+"Luxembourg",212,1994,1
+"Macedonia",343,1994,2
+"Madagascar",580,1994,3
+"Malawi",553,1994,2
+"Malaysia",820,1994,2
+"Mali",432,1994,1
+"Mauritania",435,1994,3
+"Mauritius",590,1994,2
+"Mexico",70,1994,3
+"Moldova",359,1994,2
+"Mongolia",712,1994,2
+"Morocco",600,1994,3
+"Mozambique",541,1994,4
+"Myanmar",775,1994,3
+"Namibia",565,1994,2
+"Nepal",790,1994,3
+"Netherlands",210,1994,2
+"New Zealand",920,1994,1
+"Nicaragua",93,1994,3
+"Niger",436,1994,2
+"Nigeria",475,1994,5
+"Norway",385,1994,2
+"Oman",698,1994,2
+"Pakistan",770,1994,5
+"Panama",95,1994,2
+"Papua New Guinea",910,1994,3
+"Paraguay",150,1994,3
+"Peru",135,1994,5
+"Philippines",840,1994,3
+"Poland",290,1994,2
+"Portugal",235,1994,2
+"Qatar",694,1994,1
+"Romania",360,1994,2
+"Russia",365,1994,3
+"Rwanda",517,1994,5
+"Saudi Arabia",670,1994,3
+"Senegal",433,1994,3
+"Sierra Leone",451,1994,3
+"Singapore",830,1994,3
+"Slovak Republic",317,1994,1
+"Slovenia",349,1994,1
+"Somalia",520,1994,3
+"South Africa",560,1994,4
+"Spain",230,1994,3
+"Sri Lanka",780,1994,5
+"Sudan",625,1994,5
+"Swaziland",572,1994,4
+"Sweden",380,1994,1
+"Switzerland",225,1994,2
+"Syria",652,1994,5
+"Tajikistan",702,1994,4
+"Tanzania",510,1994,4
+"Thailand",800,1994,3
+"Togo",461,1994,4
+"Tonga",955,1994,1
+"Tunisia",616,1994,3
+"Turkey",640,1994,4
+"Turkmenistan",701,1994,4
+"Uganda",500,1994,3
+"Ukraine",369,1994,3
+"United Arab Emirates",696,1994,1
+"United Kingdom",200,1994,2
+"Uruguay",165,1994,2
+"Uzbekistan",704,1994,3
+"Venezuela",101,1994,5
+"Vietnam",816,1994,2
+"Yemen, North",678,1994,NA
+"Yemen",679,1994,3
+"Yemen, South",680,1994,NA
+"Yugoslavia",345,1994,4
+"Zambia",551,1994,4
+"Zimbabwe",552,1994,2
+"Afghanistan",700,1995,4
+"Albania",339,1995,2
+"Algeria",615,1995,5
+"Angola",540,1995,2
+"Argentina",160,1995,2
+"Armenia",371,1995,NA
+"Australia",900,1995,1
+"Austria",305,1995,2
+"Azerbaijan",373,1995,NA
+"Bahrain",692,1995,3
+"Bangladesh",771,1995,5
+"Belarus",370,1995,NA
+"Belgium",211,1995,1
+"Benin",434,1995,1
+"Bhutan",760,1995,3
+"Bolivia",145,1995,2
+"Bosnia and Herzegovina",346,1995,5
+"Botswana",571,1995,2
+"Brazil",140,1995,4
+"Bulgaria",355,1995,2
+"Burkina Faso",439,1995,3
+"Burundi",516,1995,3
+"Cambodia",811,1995,3
+"Cameroon",471,1995,5
+"Canada",20,1995,2
+"Central African Repbulic",482,1995,2
+"Chad",483,1995,4
+"Chile",155,1995,3
+"China",710,1995,5
+"Colombia",100,1995,3
+"Comoros",581,1995,1
+"Congo, Republic of",484,1995,3
+"Congo, Democratic Republic of",490,1995,4
+"Costa Rica",94,1995,2
+"ivory Coast",437,1995,2
+"Croatia",344,1995,3
+"Cuba",40,1995,3
+"Cyprus",352,1995,2
+"Czechoslovakia",315,1995,NA
+"Czech Republic",316,1995,2
+"Denmark",390,1995,1
+"Djibouti",522,1995,2
+"Dominican Republic",42,1995,2
+"Ecuador",130,1995,3
+"Egypt",651,1995,5
+"El Salvador",92,1995,3
+"Equatorial Guinea",411,1995,4
+"Eritrea",531,1995,2
+"Estonia",366,1995,2
+"Ethiopia",530,1995,2
+"Fiji",950,1995,2
+"Finland",375,1995,1
+"France",220,1995,2
+"Gabon",481,1995,3
+"Gambia",420,1995,3
+"Georgia",372,1995,3
+"Germany",255,1995,2
+"Germany, East",265,1995,NA
+"Germany, West",260,1995,NA
+"Ghana",452,1995,2
+"Greece",350,1995,3
+"Guatemala",90,1995,4
+"Guinea",438,1995,3
+"Guinea-Bissau",404,1995,3
+"Guyana",110,1995,2
+"Haiti",41,1995,2
+"Honduras",91,1995,3
+"Hungary",310,1995,2
+"iceland",395,1995,1
+"india",750,1995,5
+"indonesia",850,1995,3
+"iran",630,1995,3
+"iraq",645,1995,5
+"ireland",205,1995,1
+"israel",666,1995,3
+"italy",325,1995,2
+"Jamaica",51,1995,2
+"Japan",740,1995,2
+"Jordan",663,1995,3
+"Kazakhstan",705,1995,3
+"Kenya",501,1995,3
+"South Korea",732,1995,3
+"North Korea",731,1995,NA
+"Kuwait",690,1995,2
+"Kyrgyzstan",703,1995,1
+"Laos",812,1995,1
+"Latvia",367,1995,2
+"Lebanon",660,1995,3
+"Lesotho",570,1995,2
+"Liberia",450,1995,3
+"Libya",620,1995,3
+"Lithuania",368,1995,2
+"Luxembourg",212,1995,1
+"Macedonia",343,1995,2
+"Madagascar",580,1995,3
+"Malawi",553,1995,2
+"Malaysia",820,1995,3
+"Mali",432,1995,2
+"Mauritania",435,1995,3
+"Mauritius",590,1995,2
+"Mexico",70,1995,3
+"Moldova",359,1995,2
+"Mongolia",712,1995,2
+"Morocco",600,1995,3
+"Mozambique",541,1995,4
+"Myanmar",775,1995,4
+"Namibia",565,1995,2
+"Nepal",790,1995,3
+"Netherlands",210,1995,1
+"New Zealand",920,1995,1
+"Nicaragua",93,1995,4
+"Niger",436,1995,1
+"Nigeria",475,1995,5
+"Norway",385,1995,1
+"Oman",698,1995,2
+"Pakistan",770,1995,5
+"Panama",95,1995,2
+"Papua New Guinea",910,1995,2
+"Paraguay",150,1995,3
+"Peru",135,1995,4
+"Philippines",840,1995,3
+"Poland",290,1995,NA
+"Portugal",235,1995,2
+"Qatar",694,1995,1
+"Romania",360,1995,4
+"Russia",365,1995,5
+"Rwanda",517,1995,2
+"Saudi Arabia",670,1995,3
+"Senegal",433,1995,3
+"Sierra Leone",451,1995,2
+"Singapore",830,1995,2
+"Slovak Republic",317,1995,3
+"Slovenia",349,1995,1
+"Somalia",520,1995,NA
+"South Africa",560,1995,3
+"Spain",230,1995,4
+"Sri Lanka",780,1995,3
+"Sudan",625,1995,5
+"Swaziland",572,1995,3
+"Sweden",380,1995,2
+"Switzerland",225,1995,1
+"Syria",652,1995,5
+"Tajikistan",702,1995,4
+"Tanzania",510,1995,4
+"Thailand",800,1995,3
+"Togo",461,1995,3
+"Tonga",955,1995,1
+"Tunisia",616,1995,2
+"Turkey",640,1995,4
+"Turkmenistan",701,1995,4
+"Uganda",500,1995,3
+"Ukraine",369,1995,4
+"United Arab Emirates",696,1995,1
+"United Kingdom",200,1995,2
+"Uruguay",165,1995,2
+"Uzbekistan",704,1995,3
+"Venezuela",101,1995,3
+"Vietnam",816,1995,2
+"Yemen, North",678,1995,NA
+"Yemen",679,1995,2
+"Yemen, South",680,1995,NA
+"Yugoslavia",345,1995,NA
+"Zambia",551,1995,4
+"Zimbabwe",552,1995,2
+"Afghanistan",700,1996,5
+"Albania",339,1996,2
+"Algeria",615,1996,5
+"Angola",540,1996,2
+"Argentina",160,1996,2
+"Armenia",371,1996,NA
+"Australia",900,1996,2
+"Austria",305,1996,2
+"Azerbaijan",373,1996,NA
+"Bahrain",692,1996,4
+"Bangladesh",771,1996,5
+"Belarus",370,1996,NA
+"Belgium",211,1996,1
+"Benin",434,1996,1
+"Bhutan",760,1996,1
+"Bolivia",145,1996,2
+"Bosnia and Herzegovina",346,1996,3
+"Botswana",571,1996,2
+"Brazil",140,1996,4
+"Bulgaria",355,1996,3
+"Burkina Faso",439,1996,3
+"Burundi",516,1996,2
+"Cambodia",811,1996,3
+"Cameroon",471,1996,4
+"Canada",20,1996,1
+"Central African Repbulic",482,1996,3
+"Chad",483,1996,2
+"Chile",155,1996,3
+"China",710,1996,5
+"Colombia",100,1996,4
+"Comoros",581,1996,1
+"Congo, Republic of",484,1996,5
+"Congo, Democratic Republic of",490,1996,4
+"Costa Rica",94,1996,2
+"ivory Coast",437,1996,3
+"Croatia",344,1996,1
+"Cuba",40,1996,3
+"Cyprus",352,1996,2
+"Czechoslovakia",315,1996,NA
+"Czech Republic",316,1996,2
+"Denmark",390,1996,1
+"Djibouti",522,1996,3
+"Dominican Republic",42,1996,4
+"Ecuador",130,1996,3
+"Egypt",651,1996,4
+"El Salvador",92,1996,2
+"Equatorial Guinea",411,1996,4
+"Eritrea",531,1996,1
+"Estonia",366,1996,2
+"Ethiopia",530,1996,2
+"Fiji",950,1996,2
+"Finland",375,1996,1
+"France",220,1996,2
+"Gabon",481,1996,3
+"Gambia",420,1996,3
+"Georgia",372,1996,4
+"Germany",255,1996,2
+"Germany, East",265,1996,NA
+"Germany, West",260,1996,NA
+"Ghana",452,1996,2
+"Greece",350,1996,2
+"Guatemala",90,1996,3
+"Guinea",438,1996,3
+"Guinea-Bissau",404,1996,2
+"Guyana",110,1996,2
+"Haiti",41,1996,4
+"Honduras",91,1996,3
+"Hungary",310,1996,2
+"iceland",395,1996,1
+"india",750,1996,5
+"indonesia",850,1996,5
+"iran",630,1996,3
+"iraq",645,1996,5
+"ireland",205,1996,2
+"israel",666,1996,2
+"italy",325,1996,2
+"Jamaica",51,1996,2
+"Japan",740,1996,3
+"Jordan",663,1996,3
+"Kazakhstan",705,1996,3
+"Kenya",501,1996,4
+"South Korea",732,1996,3
+"North Korea",731,1996,NA
+"Kuwait",690,1996,2
+"Kyrgyzstan",703,1996,2
+"Laos",812,1996,1
+"Latvia",367,1996,2
+"Lebanon",660,1996,3
+"Lesotho",570,1996,1
+"Liberia",450,1996,3
+"Libya",620,1996,3
+"Lithuania",368,1996,2
+"Luxembourg",212,1996,1
+"Macedonia",343,1996,2
+"Madagascar",580,1996,3
+"Malawi",553,1996,3
+"Malaysia",820,1996,2
+"Mali",432,1996,1
+"Mauritania",435,1996,3
+"Mauritius",590,1996,3
+"Mexico",70,1996,5
+"Moldova",359,1996,2
+"Mongolia",712,1996,2
+"Morocco",600,1996,3
+"Mozambique",541,1996,4
+"Myanmar",775,1996,3
+"Namibia",565,1996,2
+"Nepal",790,1996,4
+"Netherlands",210,1996,1
+"New Zealand",920,1996,1
+"Nicaragua",93,1996,3
+"Niger",436,1996,2
+"Nigeria",475,1996,5
+"Norway",385,1996,1
+"Oman",698,1996,2
+"Pakistan",770,1996,4
+"Panama",95,1996,2
+"Papua New Guinea",910,1996,3
+"Paraguay",150,1996,3
+"Peru",135,1996,5
+"Philippines",840,1996,3
+"Poland",290,1996,2
+"Portugal",235,1996,2
+"Qatar",694,1996,1
+"Romania",360,1996,2
+"Russia",365,1996,4
+"Rwanda",517,1996,2
+"Saudi Arabia",670,1996,3
+"Senegal",433,1996,3
+"Sierra Leone",451,1996,4
+"Singapore",830,1996,2
+"Slovak Republic",317,1996,2
+"Slovenia",349,1996,1
+"Somalia",520,1996,NA
+"South Africa",560,1996,3
+"Spain",230,1996,3
+"Sri Lanka",780,1996,3
+"Sudan",625,1996,5
+"Swaziland",572,1996,4
+"Sweden",380,1996,2
+"Switzerland",225,1996,1
+"Syria",652,1996,5
+"Tajikistan",702,1996,4
+"Tanzania",510,1996,4
+"Thailand",800,1996,4
+"Togo",461,1996,3
+"Tonga",955,1996,1
+"Tunisia",616,1996,3
+"Turkey",640,1996,5
+"Turkmenistan",701,1996,4
+"Uganda",500,1996,3
+"Ukraine",369,1996,3
+"United Arab Emirates",696,1996,2
+"United Kingdom",200,1996,2
+"Uruguay",165,1996,2
+"Uzbekistan",704,1996,4
+"Venezuela",101,1996,3
+"Vietnam",816,1996,2
+"Yemen, North",678,1996,NA
+"Yemen",679,1996,3
+"Yemen, South",680,1996,NA
+"Yugoslavia",345,1996,5
+"Zambia",551,1996,3
+"Zimbabwe",552,1996,2
+"Afghanistan",700,1997,5
+"Albania",339,1997,2
+"Algeria",615,1997,5
+"Angola",540,1997,4
+"Argentina",160,1997,3
+"Armenia",371,1997,NA
+"Australia",900,1997,3
+"Austria",305,1997,2
+"Azerbaijan",373,1997,NA
+"Bahrain",692,1997,4
+"Bangladesh",771,1997,5
+"Belarus",370,1997,NA
+"Belgium",211,1997,1
+"Benin",434,1997,1
+"Bhutan",760,1997,3
+"Bolivia",145,1997,2
+"Bosnia and Herzegovina",346,1997,3
+"Botswana",571,1997,2
+"Brazil",140,1997,4
+"Bulgaria",355,1997,3
+"Burkina Faso",439,1997,2
+"Burundi",516,1997,3
+"Cambodia",811,1997,4
+"Cameroon",471,1997,3
+"Canada",20,1997,1
+"Central African Repbulic",482,1997,5
+"Chad",483,1997,4
+"Chile",155,1997,3
+"China",710,1997,3
+"Colombia",100,1997,5
+"Comoros",581,1997,4
+"Congo, Republic of",484,1997,4
+"Congo, Democratic Republic of",490,1997,4
+"Costa Rica",94,1997,2
+"ivory Coast",437,1997,4
+"Croatia",344,1997,2
+"Cuba",40,1997,3
+"Cyprus",352,1997,3
+"Czechoslovakia",315,1997,NA
+"Czech Republic",316,1997,2
+"Denmark",390,1997,1
+"Djibouti",522,1997,3
+"Dominican Republic",42,1997,3
+"Ecuador",130,1997,2
+"Egypt",651,1997,4
+"El Salvador",92,1997,2
+"Equatorial Guinea",411,1997,3
+"Eritrea",531,1997,2
+"Estonia",366,1997,2
+"Ethiopia",530,1997,3
+"Fiji",950,1997,2
+"Finland",375,1997,1
+"France",220,1997,2
+"Gabon",481,1997,3
+"Gambia",420,1997,3
+"Georgia",372,1997,4
+"Germany",255,1997,2
+"Germany, East",265,1997,NA
+"Germany, West",260,1997,NA
+"Ghana",452,1997,2
+"Greece",350,1997,2
+"Guatemala",90,1997,3
+"Guinea",438,1997,4
+"Guinea-Bissau",404,1997,2
+"Guyana",110,1997,2
+"Haiti",41,1997,4
+"Honduras",91,1997,4
+"Hungary",310,1997,2
+"iceland",395,1997,2
+"india",750,1997,4
+"indonesia",850,1997,4
+"iran",630,1997,3
+"iraq",645,1997,5
+"ireland",205,1997,2
+"israel",666,1997,4
+"italy",325,1997,2
+"Jamaica",51,1997,2
+"Japan",740,1997,3
+"Jordan",663,1997,3
+"Kazakhstan",705,1997,3
+"Kenya",501,1997,4
+"South Korea",732,1997,2
+"North Korea",731,1997,NA
+"Kuwait",690,1997,2
+"Kyrgyzstan",703,1997,2
+"Laos",812,1997,1
+"Latvia",367,1997,2
+"Lebanon",660,1997,3
+"Lesotho",570,1997,2
+"Liberia",450,1997,3
+"Libya",620,1997,3
+"Lithuania",368,1997,2
+"Luxembourg",212,1997,1
+"Macedonia",343,1997,2
+"Madagascar",580,1997,3
+"Malawi",553,1997,3
+"Malaysia",820,1997,2
+"Mali",432,1997,3
+"Mauritania",435,1997,3
+"Mauritius",590,1997,2
+"Mexico",70,1997,5
+"Moldova",359,1997,2
+"Mongolia",712,1997,2
+"Morocco",600,1997,3
+"Mozambique",541,1997,4
+"Myanmar",775,1997,3
+"Namibia",565,1997,2
+"Nepal",790,1997,4
+"Netherlands",210,1997,1
+"New Zealand",920,1997,1
+"Nicaragua",93,1997,3
+"Niger",436,1997,2
+"Nigeria",475,1997,5
+"Norway",385,1997,1
+"Oman",698,1997,2
+"Pakistan",770,1997,5
+"Panama",95,1997,2
+"Papua New Guinea",910,1997,2
+"Paraguay",150,1997,3
+"Peru",135,1997,5
+"Philippines",840,1997,3
+"Poland",290,1997,2
+"Portugal",235,1997,1
+"Qatar",694,1997,1
+"Romania",360,1997,3
+"Russia",365,1997,4
+"Rwanda",517,1997,3
+"Saudi Arabia",670,1997,3
+"Senegal",433,1997,3
+"Sierra Leone",451,1997,4
+"Singapore",830,1997,2
+"Slovak Republic",317,1997,2
+"Slovenia",349,1997,1
+"Somalia",520,1997,NA
+"South Africa",560,1997,3
+"Spain",230,1997,3
+"Sri Lanka",780,1997,3
+"Sudan",625,1997,4
+"Swaziland",572,1997,3
+"Sweden",380,1997,2
+"Switzerland",225,1997,3
+"Syria",652,1997,5
+"Tajikistan",702,1997,3
+"Tanzania",510,1997,3
+"Thailand",800,1997,2
+"Togo",461,1997,3
+"Tonga",955,1997,1
+"Tunisia",616,1997,3
+"Turkey",640,1997,5
+"Turkmenistan",701,1997,4
+"Uganda",500,1997,3
+"Ukraine",369,1997,3
+"United Arab Emirates",696,1997,2
+"United Kingdom",200,1997,2
+"Uruguay",165,1997,2
+"Uzbekistan",704,1997,4
+"Venezuela",101,1997,3
+"Vietnam",816,1997,NA
+"Yemen, North",678,1997,NA
+"Yemen",679,1997,5
+"Yemen, South",680,1997,NA
+"Yugoslavia",345,1997,5
+"Zambia",551,1997,3
+"Zimbabwe",552,1997,3
+"Afghanistan",700,1998,5
+"Albania",339,1998,3
+"Algeria",615,1998,5
+"Angola",540,1998,4
+"Argentina",160,1998,4
+"Armenia",371,1998,NA
+"Australia",900,1998,2
+"Austria",305,1998,2
+"Azerbaijan",373,1998,NA
+"Bahrain",692,1998,NA
+"Bangladesh",771,1998,5
+"Belarus",370,1998,NA
+"Belgium",211,1998,1
+"Benin",434,1998,1
+"Bhutan",760,1998,2
+"Bolivia",145,1998,3
+"Bosnia and Herzegovina",346,1998,3
+"Botswana",571,1998,2
+"Brazil",140,1998,4
+"Bulgaria",355,1998,2
+"Burkina Faso",439,1998,2
+"Burundi",516,1998,3
+"Cambodia",811,1998,3
+"Cameroon",471,1998,3
+"Canada",20,1998,1
+"Central African Repbulic",482,1998,4
+"Chad",483,1998,3
+"Chile",155,1998,3
+"China",710,1998,3
+"Colombia",100,1998,4
+"Comoros",581,1998,2
+"Congo, Republic of",484,1998,3
+"Congo, Democratic Republic of",490,1998,4
+"Costa Rica",94,1998,2
+"ivory Coast",437,1998,4
+"Croatia",344,1998,2
+"Cuba",40,1998,2
+"Cyprus",352,1998,2
+"Czechoslovakia",315,1998,NA
+"Czech Republic",316,1998,2
+"Denmark",390,1998,1
+"Djibouti",522,1998,4
+"Dominican Republic",42,1998,3
+"Ecuador",130,1998,3
+"Egypt",651,1998,4
+"El Salvador",92,1998,2
+"Equatorial Guinea",411,1998,4
+"Eritrea",531,1998,2
+"Estonia",366,1998,2
+"Ethiopia",530,1998,3
+"Fiji",950,1998,2
+"Finland",375,1998,1
+"France",220,1998,2
+"Gabon",481,1998,3
+"Gambia",420,1998,2
+"Georgia",372,1998,5
+"Germany",255,1998,2
+"Germany, East",265,1998,NA
+"Germany, West",260,1998,NA
+"Ghana",452,1998,3
+"Greece",350,1998,2
+"Guatemala",90,1998,3
+"Guinea",438,1998,4
+"Guinea-Bissau",404,1998,4
+"Guyana",110,1998,2
+"Haiti",41,1998,4
+"Honduras",91,1998,3
+"Hungary",310,1998,2
+"iceland",395,1998,1
+"india",750,1998,4
+"indonesia",850,1998,4
+"iran",630,1998,4
+"iraq",645,1998,5
+"ireland",205,1998,2
+"israel",666,1998,4
+"italy",325,1998,2
+"Jamaica",51,1998,2
+"Japan",740,1998,3
+"Jordan",663,1998,3
+"Kazakhstan",705,1998,3
+"Kenya",501,1998,4
+"South Korea",732,1998,3
+"North Korea",731,1998,NA
+"Kuwait",690,1998,2
+"Kyrgyzstan",703,1998,2
+"Laos",812,1998,2
+"Latvia",367,1998,2
+"Lebanon",660,1998,4
+"Lesotho",570,1998,2
+"Liberia",450,1998,4
+"Libya",620,1998,3
+"Lithuania",368,1998,2
+"Luxembourg",212,1998,1
+"Macedonia",343,1998,2
+"Madagascar",580,1998,3
+"Malawi",553,1998,2
+"Malaysia",820,1998,3
+"Mali",432,1998,3
+"Mauritania",435,1998,2
+"Mauritius",590,1998,2
+"Mexico",70,1998,5
+"Moldova",359,1998,2
+"Mongolia",712,1998,2
+"Morocco",600,1998,3
+"Mozambique",541,1998,4
+"Myanmar",775,1998,4
+"Namibia",565,1998,2
+"Nepal",790,1998,4
+"Netherlands",210,1998,1
+"New Zealand",920,1998,1
+"Nicaragua",93,1998,3
+"Niger",436,1998,1
+"Nigeria",475,1998,4
+"Norway",385,1998,1
+"Oman",698,1998,2
+"Pakistan",770,1998,5
+"Panama",95,1998,2
+"Papua New Guinea",910,1998,3
+"Paraguay",150,1998,4
+"Peru",135,1998,5
+"Philippines",840,1998,3
+"Poland",290,1998,2
+"Portugal",235,1998,2
+"Qatar",694,1998,1
+"Romania",360,1998,2
+"Russia",365,1998,5
+"Rwanda",517,1998,3
+"Saudi Arabia",670,1998,3
+"Senegal",433,1998,3
+"Sierra Leone",451,1998,5
+"Singapore",830,1998,2
+"Slovak Republic",317,1998,2
+"Slovenia",349,1998,1
+"Somalia",520,1998,NA
+"South Africa",560,1998,3
+"Spain",230,1998,3
+"Sri Lanka",780,1998,3
+"Sudan",625,1998,5
+"Swaziland",572,1998,3
+"Sweden",380,1998,2
+"Switzerland",225,1998,4
+"Syria",652,1998,5
+"Tajikistan",702,1998,4
+"Tanzania",510,1998,3
+"Thailand",800,1998,2
+"Togo",461,1998,3
+"Tonga",955,1998,1
+"Tunisia",616,1998,4
+"Turkey",640,1998,5
+"Turkmenistan",701,1998,4
+"Uganda",500,1998,3
+"Ukraine",369,1998,4
+"United Arab Emirates",696,1998,2
+"United Kingdom",200,1998,2
+"Uruguay",165,1998,3
+"Uzbekistan",704,1998,4
+"Venezuela",101,1998,3
+"Vietnam",816,1998,2
+"Yemen, North",678,1998,NA
+"Yemen",679,1998,4
+"Yemen, South",680,1998,NA
+"Yugoslavia",345,1998,5
+"Zambia",551,1998,3
+"Zimbabwe",552,1998,3
+"Afghanistan",700,1999,NA
+"Albania",339,1999,3
+"Algeria",615,1999,5
+"Angola",540,1999,5
+"Argentina",160,1999,4
+"Armenia",371,1999,NA
+"Australia",900,1999,2
+"Austria",305,1999,2
+"Azerbaijan",373,1999,NA
+"Bahrain",692,1999,NA
+"Bangladesh",771,1999,5
+"Belarus",370,1999,NA
+"Belgium",211,1999,1
+"Benin",434,1999,1
+"Bhutan",760,1999,NA
+"Bolivia",145,1999,3
+"Bosnia and Herzegovina",346,1999,4
+"Botswana",571,1999,2
+"Brazil",140,1999,5
+"Bulgaria",355,1999,3
+"Burkina Faso",439,1999,2
+"Burundi",516,1999,3
+"Cambodia",811,1999,5
+"Cameroon",471,1999,3
+"Canada",20,1999,1
+"Central African Repbulic",482,1999,3
+"Chad",483,1999,3
+"Chile",155,1999,2
+"China",710,1999,3
+"Colombia",100,1999,3
+"Comoros",581,1999,2
+"Congo, Republic of",484,1999,2
+"Congo, Democratic Republic of",490,1999,4
+"Costa Rica",94,1999,2
+"ivory Coast",437,1999,4
+"Croatia",344,1999,2
+"Cuba",40,1999,2
+"Cyprus",352,1999,2
+"Czechoslovakia",315,1999,NA
+"Czech Republic",316,1999,4
+"Denmark",390,1999,1
+"Djibouti",522,1999,4
+"Dominican Republic",42,1999,3
+"Ecuador",130,1999,3
+"Egypt",651,1999,4
+"El Salvador",92,1999,2
+"Equatorial Guinea",411,1999,3
+"Eritrea",531,1999,2
+"Estonia",366,1999,2
+"Ethiopia",530,1999,2
+"Fiji",950,1999,2
+"Finland",375,1999,1
+"France",220,1999,2
+"Gabon",481,1999,2
+"Gambia",420,1999,2
+"Georgia",372,1999,4
+"Germany",255,1999,2
+"Germany, East",265,1999,NA
+"Germany, West",260,1999,NA
+"Ghana",452,1999,2
+"Greece",350,1999,2
+"Guatemala",90,1999,3
+"Guinea",438,1999,4
+"Guinea-Bissau",404,1999,3
+"Guyana",110,1999,2
+"Haiti",41,1999,4
+"Honduras",91,1999,3
+"Hungary",310,1999,2
+"iceland",395,1999,1
+"india",750,1999,4
+"indonesia",850,1999,5
+"iran",630,1999,4
+"iraq",645,1999,5
+"ireland",205,1999,2
+"israel",666,1999,3
+"italy",325,1999,3
+"Jamaica",51,1999,3
+"Japan",740,1999,3
+"Jordan",663,1999,3
+"Kazakhstan",705,1999,3
+"Kenya",501,1999,4
+"South Korea",732,1999,3
+"North Korea",731,1999,NA
+"Kuwait",690,1999,2
+"Kyrgyzstan",703,1999,2
+"Laos",812,1999,3
+"Latvia",367,1999,2
+"Lebanon",660,1999,4
+"Lesotho",570,1999,2
+"Liberia",450,1999,3
+"Libya",620,1999,3
+"Lithuania",368,1999,2
+"Luxembourg",212,1999,1
+"Macedonia",343,1999,2
+"Madagascar",580,1999,3
+"Malawi",553,1999,2
+"Malaysia",820,1999,3
+"Mali",432,1999,1
+"Mauritania",435,1999,2
+"Mauritius",590,1999,2
+"Mexico",70,1999,5
+"Moldova",359,1999,3
+"Mongolia",712,1999,3
+"Morocco",600,1999,3
+"Mozambique",541,1999,3
+"Myanmar",775,1999,4
+"Namibia",565,1999,3
+"Nepal",790,1999,4
+"Netherlands",210,1999,1
+"New Zealand",920,1999,1
+"Nicaragua",93,1999,3
+"Niger",436,1999,2
+"Nigeria",475,1999,3
+"Norway",385,1999,1
+"Oman",698,1999,2
+"Pakistan",770,1999,5
+"Panama",95,1999,2
+"Papua New Guinea",910,1999,3
+"Paraguay",150,1999,4
+"Peru",135,1999,5
+"Philippines",840,1999,3
+"Poland",290,1999,2
+"Portugal",235,1999,3
+"Qatar",694,1999,1
+"Romania",360,1999,4
+"Russia",365,1999,5
+"Rwanda",517,1999,3
+"Saudi Arabia",670,1999,3
+"Senegal",433,1999,3
+"Sierra Leone",451,1999,2
+"Singapore",830,1999,2
+"Slovak Republic",317,1999,2
+"Slovenia",349,1999,1
+"Somalia",520,1999,NA
+"South Africa",560,1999,3
+"Spain",230,1999,3
+"Sri Lanka",780,1999,3
+"Sudan",625,1999,3
+"Swaziland",572,1999,3
+"Sweden",380,1999,1
+"Switzerland",225,1999,2
+"Syria",652,1999,5
+"Tajikistan",702,1999,4
+"Tanzania",510,1999,3
+"Thailand",800,1999,3
+"Togo",461,1999,3
+"Tonga",955,1999,1
+"Tunisia",616,1999,3
+"Turkey",640,1999,5
+"Turkmenistan",701,1999,4
+"Uganda",500,1999,NA
+"Ukraine",369,1999,3
+"United Arab Emirates",696,1999,2
+"United Kingdom",200,1999,2
+"Uruguay",165,1999,2
+"Uzbekistan",704,1999,4
+"Venezuela",101,1999,4
+"Vietnam",816,1999,2
+"Yemen, North",678,1999,NA
+"Yemen",679,1999,3
+"Yemen, South",680,1999,NA
+"Yugoslavia",345,1999,5
+"Zambia",551,1999,3
+"Zimbabwe",552,1999,3

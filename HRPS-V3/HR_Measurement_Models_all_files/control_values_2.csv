@@ -1,0 +1,4 @@
+mod,variable,y,drop_file,fill_append,id
+M_Fixed,disap,y_disap,Drops_Fixed,fixed_disap,latent_disap_id
+M_All,killing_present,y_killing_present,Drops_All,all_killing_present,latent_killing_present_id
+M_Standards,disap,y_disap,Drops_Standards,standards_disap,latent_disap_id

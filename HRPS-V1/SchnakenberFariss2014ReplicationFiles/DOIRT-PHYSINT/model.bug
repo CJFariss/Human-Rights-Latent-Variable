@@ -1,0 +1,32 @@
+	
+model{
+ for(i in 1:n){# n is the number of obs
+   for(item in 1:4){
+    logit(Z[i, item, 1])  <- alpha[item, 1] - beta[item]*x[i]
+    logit(Z[i, item, 2])  <- alpha[item, 2] - beta[item]*x[i]
+    Pi[i, item, 1] <- Z[i, item, 1]
+    Pi[i, item, 2] <- Z[i, item, 2] - Z[i, item, 1]
+    Pi[i, item, 3] <- 1 - Z[i, item, 2]
+    y[i, item] ~ dcat(Pi[i, item, 1:3])
+    #ystar[i, item] ~ dcat(Pi[i, item, 1:3])
+   }
+   x[i] <- mu[country[i], year[i]]
+ }
+   sigma ~ dunif(0,1)
+   kappa <- pow(sigma, -1) 
+ for(c in 1:n.country){
+  mu[c, 1] ~ dnorm(0, 1)
+  for(t in 2:n.year){ #n.year is number of years
+   mu[c, t] ~ dnorm(mu[c, t-1], kappa)
+  }
+ }
+ for(j in 1:4){
+  beta[j] ~ dgamma(4, 3)
+  alpha0[j, 1] ~ dnorm(0, .25)
+  alpha0[j, 2] ~ dnorm(0, .25)
+  alpha[j, 1:2] <- sort(alpha0[j, 1:2])
+ }
+}
+
+
+
