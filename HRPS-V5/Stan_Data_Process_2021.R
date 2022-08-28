@@ -8,7 +8,7 @@
 #setwd("D:/Dropbox/Projects/HR_latent_event_count/StaN_Version/Umich_Phase_3")
 #setwd("C:/users/kjr228/Dropbox/Projects/HR_latent_event_count/StaN_Version/Umich_Phase_3")
 #setwd("./JPR_replication/data_raw")
-setwd("/Users/christopherfariss/Dropbox/HR_latent_event_count/JPR_replication_ext/data_raw")
+#setwd("/Users/christopherfariss/Dropbox/HR_latent_event_count/JPR_replication_ext/data_raw")
 
 #### THINGS TO FIX
 #### Update new data
@@ -103,7 +103,8 @@ ciri <- subset(ciri, !is.na(DISAP) | !is.na(KILL) | !is.na(TORT) | !is.na(POLPRI
 #pts <- read.csv("PTS2017.csv") # values through 2017 (2018 report/publication year)
 #pts <- read.csv("PTS2018.csv")  # values through 2018 (2019 report/publication year)
 #pts <- read.csv("PTS-2020.csv") # values through 2019 (2020 report/publication year)
-pts <- read.csv("PTS-2021.csv") # values through 2020 (2021 report/publication year)
+#pts <- read.csv("PTS-2021.csv") # values through 2020 (2021 report/publication year)
+pts <- read.csv("PTS-2022.csv") # values through 2020 (2021 report/publication year)
 pts <- subset(pts, select=c(Country, COW_Code_N, Year, PTS_A, PTS_S, PTS_H))
 head(pts)
 names(pts) <- c("Country", "COW", "YEAR", "Amnesty", "State", "HRW")
@@ -561,9 +562,11 @@ stan_data_list <- list(N=nrow(data), prev_id=prev_id,
                   latent_events_id_C_zinb=latent_events_id_C_zinb
 )
 
+data_processed$prev_id <- data_processed
 
 #setwd("../")
 #save.image("./data_processed/Stan_Data_Prepped_2019.RData")
 #save.image("./data_processed/Stan_Data_Prepped_2020.RData")
-saveRDS(stan_data_list, file="Stan_Data_Prepped_2021.RDS")
+setwd("~/Human-Rights-Latent-Variable/HRPS-V5")
+saveRDS(stan_data_list, file="./data_processed/Stan_Data_Prepped_2021.RDS")
 #save.image("Stan_Data_Prepped_2019.RData")

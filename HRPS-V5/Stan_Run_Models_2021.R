@@ -20,14 +20,16 @@ library(loo)
 #load("Stan_Data_Prepped_2018.RData")
 #load("Stan_Data_Prepped_2019.RData")
 #load("Stan_Data_Prepped_2020.RData")
-stan.data <- readRDS("Stan_Data_Prepped_2021.RDS")
-  
+stan.data <- readRDS("./HRPS-V5/data_processed/Stan_Data_Prepped_2021.RDS")
+
 deg_free <- rep(4, length(prev_id))
 deg_free[prev_id==0] <- 1000
 
 stan.data$deg_free = deg_free
 
-values <- read.csv("control_values.csv")
+values <- read.csv("./HRPS-V5/control_values.csv")
+values
+
 #models <- c("M_4_ZIP", "M_Fixed_ZINB", "M_Fixed_ZIP", "M_Fixed_ZIQP")
 #models <- c("M_Fixed")
 #models <- c("M_Standards")
@@ -40,11 +42,19 @@ print(selection)
 model <- models[selection]
 print(model)
 
-mod <- stan(file=paste(model, ".stan", sep=""), data=stan.data, iter=values$iter[1], 
-            chains=values$chains[1], 
-            cores=values$cores[1], verbose=F, pars=c("theta_raw", "r_year_raw","r_country_raw"),
-            include = F, thin=values$thin[1],
-            seed = 61717, control=list(max_treedepth=15))
+temp <- stan_model(file=paste("./HRPS-V5/", model, ".stan", sep="")) 
+mod <- sampling(temp, 
+                data=stan.data, 
+                iter=values$iter[1], 
+                chains=4, #values$chains[1], 
+                cores=1, #values$cores[1], 
+                verbose=F, 
+                pars=c("theta_raw", "r_year_raw","r_country_raw"),
+                include = F, 
+                thin=values$thin[1],
+                seed = 61717, 
+                control=list(max_treedepth=15)
+                )
 
 
 test <- summary(mod)$summary
