@@ -20,13 +20,18 @@ library(loo)
 #load("Stan_Data_Prepped_2018.RData")
 #load("Stan_Data_Prepped_2019.RData")
 #load("Stan_Data_Prepped_2020.RData")
+#stan.data <- readRDS("./data_processed/Stan_Data_Prepped_2021.RDS")
 stan.data <- readRDS("./HRPS-V5/data_processed/Stan_Data_Prepped_2021.RDS")
 
-deg_free <- rep(4, length(prev_id))
-deg_free[prev_id==0] <- 1000
+#deg_free <- rep(4, length(prev_id))
+#deg_free[prev_id==0] <- 1000
 
-stan.data$deg_free = deg_free
+stan.data$deg_free <- rep(4, length(stan.data$prev_id))
+stan.data$deg_free[stan.data$prev_id==0] <- 1000
 
+#stan.data$deg_free = deg_free
+
+#values <- read.csv("./control_values.csv")
 values <- read.csv("./HRPS-V5/control_values.csv")
 values
 
@@ -42,12 +47,13 @@ print(selection)
 model <- models[selection]
 print(model)
 
+#temp <- stan_model(file=paste("./", model, ".stan", sep="")) 
 temp <- stan_model(file=paste("./HRPS-V5/", model, ".stan", sep="")) 
 mod <- sampling(temp, 
                 data=stan.data, 
                 iter=values$iter[1], 
                 chains=4, #values$chains[1], 
-                cores=1, #values$cores[1], 
+                cores=4, #values$cores[1], 
                 verbose=F, 
                 pars=c("theta_raw", "r_year_raw","r_country_raw"),
                 include = F, 
