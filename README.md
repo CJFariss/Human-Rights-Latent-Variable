@@ -6,10 +6,10 @@ R code and STAN model files that generate latent human rights protection scores 
 
 
 ## Dataverse Links
-1. [Human Rights Protection Scores version 1](https://doi.org/10.7910/DVN/YGKBSH)
-2. [Human Rights Protection Scores version 2](https://doi.org/10.7910/DVN/24872)
-3. [Human Rights Protection Scores version 3](https://doi.org/10.7910/DVN/TADPGE)
-4. [Human Rights Protection Scores version 4](https://doi.org/10.7910/DVN/RQ85GK)
+1. [Human Rights Scores version 1](https://doi.org/10.7910/DVN/YGKBSH)
+2. [Human Rights Scores version 2](https://doi.org/10.7910/DVN/24872)
+3. [Human Rights Scores version 3](https://doi.org/10.7910/DVN/TADPGE)
+4. [Human Rights Scores version 4](https://doi.org/10.7910/DVN/RQ85GK)
 
 # References 
 
