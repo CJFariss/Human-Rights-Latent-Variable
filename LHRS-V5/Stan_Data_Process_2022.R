@@ -41,9 +41,9 @@ STARTYEAR <- 1946
 
 #----------------------------------------------------------------------------------------------------#
 # load and preprocess CIRI Physint data  1981-2010
-#ciri <- read.csv("CIRI_physint_data20120401.csv", na.strings=c(-999, -66, -77))
+#ciri <- read.csv("LHRS-V5/data_raw/CIRI_physint_data20120401.csv", na.strings=c(-999, -66, -77))
 # load and preprocess CIRI Physint data  1981-2011
-ciri <- read.csv("CIRI_physint2011.csv", na.strings=c(-999, -66, -77))
+ciri <- read.csv("LHRS-V5/data_raw/CIRI_physint2011.csv", na.strings=c(-999, -66, -77))
 summary(ciri$YEAR)
 
 #----------------------------------------------------------------------------------------------------#
@@ -90,21 +90,21 @@ ciri <- subset(ciri, !is.na(DISAP) | !is.na(KILL) | !is.na(TORT) | !is.na(POLPRI
 
 #----------------------------------------------------------------------------------------------------#
 # load and preprocess PTS data
-#pts <- read.csv("PTS2010.csv")
-#pts <- read.csv("PTS2011.csv")
+#pts <- read.csv("LHRS-V5/data_raw/PTS2010.csv")
+#pts <- read.csv("LHRS-V5/data_raw/PTS2011.csv")
 #pts <- subset(pts, select=c(Country, COW., Year, Amnesty, State.Dept.))
-#pts <- read.csv("PTS2013.csv")
-#pts <- read.csv("PTS2014.csv") # values thourhg 2013 (2014 report/publication year)
+#pts <- read.csv("LHRS-V5/data_raw/PTS2013.csv")
+#pts <- read.csv("LHRS-V5/data_raw/PTS2014.csv") # values thourhg 2013 (2014 report/publication year)
 #pts <- subset(pts, select=c(Country, COWnum, Year, Amnesty, StateDept, HRW))
-#pts <- read.csv("PTS2015.csv") # values through 2014 (2015 report/publication year)
+#pts <- read.csv("LHRS-V5/data_raw/PTS2015.csv") # values through 2014 (2015 report/publication year)
 
 # Country Country_OLD Year COW_Code_A COW_Code_N WordBank_Code_A UN_Code_N Region PTS_A PTS_H PTS_S
-#pts <- read.csv("PTS2016.csv") # values through 2016 (2017 report/publication year)
-#pts <- read.csv("PTS2017.csv") # values through 2017 (2018 report/publication year)
-#pts <- read.csv("PTS2018.csv")  # values through 2018 (2019 report/publication year)
-#pts <- read.csv("PTS-2020.csv") # values through 2019 (2020 report/publication year)
-#pts <- read.csv("PTS-2021.csv") # values through 2020 (2021 report/publication year)
-pts <- read.csv("PTS-2022.csv") # values through 2020 (2021 report/publication year)
+#pts <- read.csv("LHRS-V5/data_raw/PTS2016.csv") # values through 2016 (2017 report/publication year)
+#pts <- read.csv("LHRS-V5/data_raw/PTS2017.csv") # values through 2017 (2018 report/publication year)
+#pts <- read.csv("LHRS-V5/data_raw/PTS2018.csv")  # values through 2018 (2019 report/publication year)
+#pts <- read.csv("LHRS-V5/data_raw/PTS-2020.csv") # values through 2019 (2020 report/publication year)
+#pts <- read.csv("LHRS-V5/data_raw/PTS-2021.csv") # values through 2020 (2021 report/publication year)
+pts <- read.csv("LHRS-V5/data_raw/PTS-2022.csv") # values through 2021 (2022 report/publication year)
 pts <- subset(pts, select=c(Country, COW_Code_N, Year, PTS_A, PTS_S, PTS_H))
 head(pts)
 names(pts) <- c("Country", "COW", "YEAR", "Amnesty", "State", "HRW")
@@ -131,7 +131,7 @@ dim(pts)
 
 # load Hathaway Torture data
 # Note that 366, 367, 368, 370, 371, 373 have expanded coverage in the Hathaway dataset
-hathaway <- read.csv("Hathaway2002longData.csv")
+hathaway <- read.csv("LHRS-V5/data_raw/Hathaway2002longData.csv")
 hathaway <- subset(hathaway, select=c(ccode, year, torture))
 names(hathaway) <-  c("COW", "YEAR", "hathaway")
 nrow(hathaway)
@@ -140,7 +140,7 @@ nrow(hathaway)
 
 
 # load Conrad and Moore Ill Treatment and Torture data
-ITT <- read.csv("ITT_CY.csv", na.strings=c("-999", "-888", "-777"))
+ITT <- read.csv("LHRS-V5/data_raw/ITT_CY.csv", na.strings=c("-999", "-888", "-777"))
 
 ITT$cowccode[ITT$cowccode==340] <- 345
 ITT$cowccode[ITT$cowccode==678] <- 679
@@ -163,42 +163,47 @@ names(ITT) <- c("YEAR", "COW", "ITT", "ITTrestricted")
 
 
 # load genocide/politicide data
-# genocide <- read.csv("Genocide_Politicide_panel2009.csv")
-#genocide <- read.csv("Genocide_Politicide_panel2010.csv")
+# genocide <- read.csv("LHRS-V5/data_raw/Genocide_Politicide_panel2009.csv")
+#genocide <- read.csv("LHRS-V5/data_raw/Genocide_Politicide_panel2010.csv")
 #genocide <- subset(genocide, select=c(ccode, year, Mgenocide))
 #names(genocide) <- c("COW", "YEAR", "Mgenocide")
-#genocide <- read.csv("Genocide_Politicide_panel2013.csv")
-#genocide <- read.csv("Genocide_Politicide_panel2014.csv")
-#genocide <- read.csv("Genocide_Politicide_panel2015.csv")
-#genocide <- read.csv("Genocide_Politicide_panel2017.csv")
-genocide <- read.csv("Genocide_Politicide_panel2018.csv")
+#genocide <- read.csv("LHRS-V5/data_raw/Genocide_Politicide_panel2013.csv")
+#genocide <- read.csv("LHRS-V5/data_raw/Genocide_Politicide_panel2014.csv")
+#genocide <- read.csv("LHRS-V5/data_raw/Genocide_Politicide_panel2015.csv")
+#genocide <- read.csv("LHRS-V5/data_raw/Genocide_Politicide_panel2017.csv")
+genocide <- read.csv("LHRS-V5/data_raw/Genocide_Politicide_panel2018.csv")
 genocide <- subset(genocide, select=c(ccode, year, genocide))
 names(genocide) <- c("COW", "YEAR", "genocide")
 
 # load Rummel's democide data
-rummel <- read.csv("Rummel_Politicide_panel1987.csv")
+rummel <- read.csv("LHRS-V5/data_raw/Rummel_Politicide_panel1987.csv")
 rummel <- subset(rummel, year>=STARTYEAR)
 names(rummel) <- c("COW", "YEAR", "rummel")
 
 # government killing
-#killing <- read.csv("OneSidedKilling1989_2010.csv")
-#killing <- read.csv("OneSidedKilling1989_2011.csv")
+#killing <- read.csv("LHRS-V5/data_raw/OneSidedKilling1989_2010.csv")
+#killing <- read.csv("LHRS-V5/data_raw/OneSidedKilling1989_2011.csv")
 #killing <- subset(killing, select=c(ccode, YEAR))
-#killing <- read.csv("OneSidedKilling1989_2013.csv")
-#killing <- read.csv("OneSidedKilling1989_2014.csv")
+#killing <- read.csv("LHRS-V5/data_raw/OneSidedKilling1989_2013.csv")
+#killing <- read.csv("LHRS-V5/data_raw/OneSidedKilling1989_2014.csv")
 #killing <- subset(killing, select=c(ccode, Year))
 #names(killing) <- c("COW", "YEAR")
-#killing <- read.csv("ucdp-onesided-14-2016.csv")
+#killing <- read.csv("LHRS-V5/data_raw/ucdp-onesided-14-2016.csv")
 ## selects columns and drops non-state actors
 #killing <- subset(killing, IsGovernmentActor==1, select=c(ActorId, Year, BestFatalityEstimate, LowFatalityEstimate, HighFatalityEstimate))
-#killing <- read.csv("ucdp-onesided-181-2017.csv")
+#killing <- read.csv("LHRS-V5/data_raw/ucdp-onesided-181-2017.csv")
 #killing <- subset(killing, is_government_actor==1, select=c(gwno_a, year, best_fatality_estimate, low_fatality_estimate, high_fatality_estimate))
 #names(killing) <- c("COW", "YEAR", "killing_best", "killing_low", "killing_high")
 
-#killing <- read.csv("ucdp-onesided-201-2019.csv")
-killing <- read.csv("ucdp-onesided-211-2020.csv")
+#killing <- read.csv("LHRS-V5/data_raw/ucdp-onesided-201-2019.csv")
+#killing <- read.csv("LHRS-V5/data_raw/ucdp-onesided-211-2020.csv")
+#killing <- read.csv("LHRS-V4/data_raw/ucdp-onesided-221-2021.csv")
 ## selects columns and drops non-state actors
-killing <- subset(killing, is_government_actor==1, select=c(gwnoa, year, best_fatality_estimate, low_fatality_estimate, high_fatality_estimate))
+#killing <- subset(killing, is_government_actor==1, select=c(gwnoa, year, best_fatality_estimate, low_fatality_estimate, high_fatality_estimate))
+#names(killing) <- c("COW", "YEAR", "killing_best", "killing_low", "killing_high")
+
+killing <- read.csv("LHRS-V5/data_raw/OneSided_v23_1.csv")
+killing <- subset(killing, is_government_actor==1, select=c(gwno_location, year, best_fatality_estimate, low_fatality_estimate, high_fatality_estimate))
 names(killing) <- c("COW", "YEAR", "killing_best", "killing_low", "killing_high")
 
 
@@ -208,8 +213,8 @@ killing$COW[killing$COW==678] <- 679
 
 killing <- subset(killing, !is.na(COW))
 
-# whpsi government execusion
-whpsi <- read.csv("whpsi.csv")
+# whpsi government execution
+whpsi <- read.csv("LHRS-V5/data_raw/whpsi.csv")
 whpsi$executions <- 0
 whpsi$executions[whpsi$POLITICAL.EXECUTION>0] <- 1
 whpsi$negative_sanctions <- 0
@@ -217,18 +222,24 @@ whpsi$negative_sanctions[whpsi$IMPOSITION.OF.POL.SANCT>0] <- 1
 whpsi <- subset(whpsi, YEAR>=STARTYEAR, select=c(COW, YEAR, executions, negative_sanctions))
 
 # Harff and Gurr Massive repression data
-massive <- read.csv("Massive_State_Repression_Panel_1988.csv")
+massive <- read.csv("LHRS-V5/data_raw/Massive_State_Repression_Panel_1988.csv")
 massive <- subset(massive, year>=STARTYEAR)
 names(massive) <- c("COW", "YEAR", "massive_repression")
 
-# state led masssive repression
-#mass_killing <- read.csv("mkl_ccode_2014.csv")
-#mass_killing <- read.csv("mkl_ccode_2015.csv")
-mass_killing <- read.csv("mkl_ccode_2015.csv")
+# state led massive repression
+#mass_killing <- read.csv("LHRS-V5/data_raw/mkl_ccode_2014.csv")
+#mass_killing <- read.csv("LHRS-V5/data_raw/mkl_ccode_2015.csv")
+mass_killing <- read.csv("LHRS-V5/data_raw/mkl_ccode_2015.csv")
 mass_killing <- subset(mass_killing, year>=STARTYEAR, select=c(ccode, year, mkl.ongoing))
 names(mass_killing) <- c("COW", "YEAR", "mass_killing")
 
-# pitf <- read.csv("pitf_ccode_2015.csv")
+
+## 
+tmk <- read.csv("LHRS-V5/data_raw/tmk2020.csv")
+table(tmk$tmk)
+names(tmk) <- c("COW", "YEAR", "tmk")
+
+## pitf <- read.csv("pitf_ccode_2015.csv")
 
 #----------------------------------------------------------------------------------------------------#
 # merge data
@@ -251,13 +262,15 @@ data <- merge(data, massive, by.x=c("COW", "YEAR"), by.y=c("COW", "YEAR"), all.x
 nrow(data)
 data <- merge(data, mass_killing, by.x=c("COW", "YEAR"), by.y=c("COW", "YEAR"), all.x=TRUE, all.y=TRUE)
 nrow(data)
+data <- merge(data, tmk, by.x=c("COW", "YEAR"), by.y=c("COW", "YEAR"), all.x=TRUE, all.y=TRUE)
+nrow(data)
 # data <- merge(data, pitf, by.x=c("COW", "YEAR"), by.y=c("COW", "YEAR"), all.x=TRUE, all.y=TRUE)
 # nrow(data)
 
 data <- subset(data, select=c(YEAR, CIRI, COW, DISAP, KILL, POLPRIS, TORT, Amnesty, 
                               State, HRW, hathaway, ITT, genocide, rummel,
                               massive_repression, executions, negative_sanctions, 
-                              mass_killing, killing_low, killing_best, killing_high))
+                              mass_killing, tmk, killing_low, killing_best, killing_high))
 # pitf_low_killing, pitf_high_killing))
 
 nrow(data)
@@ -275,7 +288,7 @@ data$massive_repression[is.na(data$massive_repression) & data$YEAR>=1945 & data$
 
 
 ###### Fixing PITF and UCDP low
-data$killing_low[is.na(data$killing_low) & data$YEAR>=1989 & data$YEAR<=2018] <- 0
+data$killing_low[is.na(data$killing_low) & data$YEAR>=1989 & data$YEAR<=2022] <- 0
 
 # selec <- is.na(data$killing_low) & is.na(data$pitf_low_killing) & data$YEAR>=1995 & data$YEAR<=2015
 # data$killing_low[selec] <- 0
@@ -283,8 +296,8 @@ data$killing_low[is.na(data$killing_low) & data$YEAR>=1989 & data$YEAR<=2018] <-
 
 
 ### translate the killing_low variable to a binary variable (for earlier models)
-data$killing_present[data$killing_low ==0 & data$YEAR>=1989 & data$YEAR<=2018] <- 0
-data$killing_present[data$killing_low > 0 & data$YEAR>=1989 & data$YEAR<=2018] <- 1
+data$killing_present[data$killing_low ==0 & data$YEAR>=1989 & data$YEAR<=2022] <- 0
+data$killing_present[data$killing_low > 0 & data$YEAR>=1989 & data$YEAR<=2022] <- 1
 
 ## this dataset ends in 2015
 data$mass_killing[is.na(data$mass_killing) & data$YEAR>=1945 &  data$YEAR<=2015] <- 0
@@ -318,7 +331,7 @@ nrow(data)
 data <- subset(data, !is.na(DISAP) | !is.na(KILL) | !is.na(TORT) | !is.na(POLPRIS) | 
                  !is.na(Amnesty) | !is.na(State) | !is.na(HRW) | !is.na(hathaway) | !is.na(ITT) | 
                  !is.na(genocide) | !is.na(rummel) | !is.na(massive_repression) | !is.na(executions) | 
-                 !is.na(negative_sanctions) | !is.na(mass_killing) | !is.na(killing_low) | !is.na(killing_best) | 
+                 !is.na(negative_sanctions) | !is.na(mass_killing) | !is.na(tmk) | !is.na(killing_low) | !is.na(killing_best) | 
                  !is.na(killing_high))
 #| !is.na(pitf_low_killing) | !is.na(pitf_high_killing))
 nrow(data)
@@ -461,7 +474,7 @@ table(y_hathaway)
 
 events <- c("POLPRIS", "ITT", "genocide", "rummel",
             "massive_repression", "executions", 
-            "negative_sanctions", "mass_killing",
+            "negative_sanctions", "mass_killing", "tmk",
             "killing_low","killing_best", "killing_high")
 # "pitf_low_killing", "pitf_high_killing")
 y.events <- data[,colnames(data) %in% events]
@@ -537,36 +550,37 @@ table(y_killing_present)
 
 
 stan_data_list <- list(N=nrow(data), prev_id=prev_id,
-                  N_disap=N_disap, y_disap=y_disap, latent_disap_id=latent_disap_id, year_disap_id=year_disap_id,
-                  N_kill=N_kill, y_kill=y_kill, latent_kill_id=latent_kill_id, year_kill_id=year_kill_id,
-                  N_tort=N_tort, y_tort=y_tort, latent_tort_id=latent_tort_id, year_tort_id=year_tort_id,
-                  N_amnesty=N_amnesty, y_amnesty=y_amnesty, latent_amnesty_id=latent_amnesty_id, year_amnesty_id=year_amnesty_id,
-                  N_state=N_state, y_state=y_state, latent_state_id=latent_state_id, year_state_id=year_state_id,
-                  N_hrw=N_hrw, y_hrw=y_hrw, latent_hrw_id=latent_hrw_id, year_hrw_id=year_hrw_id,
-                  N_hathaway=N_hathaway, y_hathaway=y_hathaway, latent_hathaway_id=latent_hathaway_id, year_hathaway_id=year_hathaway_id,
-                  J_events_2=J_events_2, N_events_2=N_events_2, y_events_2=y_events_2, item_events_id_2=item_events_id_2,
-                  latent_events_id_2=latent_events_id_2,
-                  J_events_3=J_events_3, N_events_3=N_events_3, y_events_3=y_events_3, item_events_id_3=item_events_id_3,
-                  latent_events_id_3=latent_events_id_3,
-                  J_events_6=J_events_6, N_events_6=N_events_6, y_events_6=y_events_6, item_events_id_6=item_events_id_6,
-                  latent_events_id_6=latent_events_id_6,
-                  J_events_C=J_events_C, N_events_C=N_events_C, y_events_C=y_events_C, item_events_id_C=item_events_id_C,
-                  latent_events_id_C=latent_events_id_C,
-                  ### won't be used in all 
-                  N_killing_present=N_killing_present, y_killing_present=y_killing_present, latent_killing_present_id=latent_killing_present_id,
-                  year_N = max(year), country_N = max(country), 
-                  country_events_id_C=country_events_id_C, year_events_id_C=year_events_id_C,
-                  J_events_C_rest=J_events_C_rest, N_events_C_rest=N_events_C_rest, y_events_C_rest=y_events_C_rest, item_events_id_C_rest=item_events_id_C_rest,
-                  latent_events_id_C_rest=latent_events_id_C_rest,
-                  N_events_C_zinb=N_events_C_zinb, y_events_C_zinb=y_events_C_zinb,
-                  latent_events_id_C_zinb=latent_events_id_C_zinb
+                       N_disap=N_disap, y_disap=y_disap, latent_disap_id=latent_disap_id, year_disap_id=year_disap_id,
+                       N_kill=N_kill, y_kill=y_kill, latent_kill_id=latent_kill_id, year_kill_id=year_kill_id,
+                       N_tort=N_tort, y_tort=y_tort, latent_tort_id=latent_tort_id, year_tort_id=year_tort_id,
+                       N_amnesty=N_amnesty, y_amnesty=y_amnesty, latent_amnesty_id=latent_amnesty_id, year_amnesty_id=year_amnesty_id,
+                       N_state=N_state, y_state=y_state, latent_state_id=latent_state_id, year_state_id=year_state_id,
+                       N_hrw=N_hrw, y_hrw=y_hrw, latent_hrw_id=latent_hrw_id, year_hrw_id=year_hrw_id,
+                       N_hathaway=N_hathaway, y_hathaway=y_hathaway, latent_hathaway_id=latent_hathaway_id, year_hathaway_id=year_hathaway_id,
+                       J_events_2=J_events_2, N_events_2=N_events_2, y_events_2=y_events_2, item_events_id_2=item_events_id_2,
+                       latent_events_id_2=latent_events_id_2,
+                       J_events_3=J_events_3, N_events_3=N_events_3, y_events_3=y_events_3, item_events_id_3=item_events_id_3,
+                       latent_events_id_3=latent_events_id_3,
+                       J_events_6=J_events_6, N_events_6=N_events_6, y_events_6=y_events_6, item_events_id_6=item_events_id_6,
+                       latent_events_id_6=latent_events_id_6,
+                       J_events_C=J_events_C, N_events_C=N_events_C, y_events_C=y_events_C, item_events_id_C=item_events_id_C,
+                       latent_events_id_C=latent_events_id_C,
+                       ### won't be used in all 
+                       N_killing_present=N_killing_present, y_killing_present=y_killing_present, latent_killing_present_id=latent_killing_present_id,
+                       year_N = max(year), country_N = max(country), 
+                       country_events_id_C=country_events_id_C, year_events_id_C=year_events_id_C,
+                       J_events_C_rest=J_events_C_rest, N_events_C_rest=N_events_C_rest, y_events_C_rest=y_events_C_rest, item_events_id_C_rest=item_events_id_C_rest,
+                       latent_events_id_C_rest=latent_events_id_C_rest,
+                       N_events_C_zinb=N_events_C_zinb, y_events_C_zinb=y_events_C_zinb,
+                       latent_events_id_C_zinb=latent_events_id_C_zinb
 )
 
-data_processed$prev_id <- data_processed
+#data_processed$prev_id <- data_processed
 
 #setwd("../")
 #save.image("./data_processed/Stan_Data_Prepped_2019.RData")
 #save.image("./data_processed/Stan_Data_Prepped_2020.RData")
-setwd("~/Human-Rights-Latent-Variable/HRPS-V5")
-saveRDS(stan_data_list, file="./data_processed/Stan_Data_Prepped_2021.RDS")
+#setwd("~/Human-Rights-Latent-Variable/HRS-V5/")
+#saveRDS(stan_data_list, file="./data_processed/Stan_Data_Prepped_2021.RDS")
+#saveRDS(stan_data_list, file="./data_processed/Stan_Data_Prepped_2022.RDS")
 #save.image("Stan_Data_Prepped_2019.RData")
